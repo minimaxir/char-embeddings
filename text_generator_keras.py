@@ -12,8 +12,8 @@ has at least ~100k characters. ~1M is better.
 
 from __future__ import print_function
 from keras.models import Sequential
-from keras.layers import Dense, Activation, Dropout
-from keras.layers import LSTM, Convolution1D, MaxPooling1D
+from keras.layers import Dense, Activation, Dropout, Embedding
+from keras.layers import LSTM, Convolution1D, MaxPooling1D, Bidirectional
 from keras.optimizers import RMSprop
 from keras.utils.data_utils import get_file
 from keras.layers.normalization import BatchNormalization
@@ -22,7 +22,7 @@ import random
 import sys
 
 #path = get_file('nietzsche.txt', origin="https://s3.amazonaws.com/text-datasets/nietzsche.txt")
-text = open('magic_cards.txt').read().lower()
+text = open('magic_cards.txt').read()
 print('corpus length:', len(text))
 
 chars = sorted(list(set(text)))
@@ -52,7 +52,8 @@ for i, sentence in enumerate(sentences):
 # build the model: a single LSTM
 print('Build model...')
 model = Sequential()
-model.add(Convolution1D(32, 3, border_mode='valid', input_shape=(maxlen, len(chars))))
+#model.add(Embedding(len(chars), 128, input_length=maxlen))
+model.add(Convolution1D(32, 3, border_mode='valid', input_shape=(maxlen, len(chars)), subsample_length=1))
 model.add(Activation('relu'))
 model.add(BatchNormalization())
 
@@ -72,7 +73,7 @@ model.add(BatchNormalization())
 # model.add(Activation('relu'))
 # model.add(BatchNormalization())
 
-model.add(LSTM(128))
+model.add(LSTM(64))
 model.add(BatchNormalization())
 
 model.add(Dense(len(chars)))
