@@ -1,0 +1,16 @@
+<pre>Moonmist@{1}{G}#Instant$Transform all Humans. Prevent all combat damage that would be dealt this turn by creatures other than Werewolves and Wolves. (Only double-faced cards can be transformed.)<end>
+<pre>Accursed Spirit@{3}{B}#Creature — Spirit$Intimidate (This creature can't be blocked except by artifact creatures and/or creatures that share a color with it.)%3%2<end>
+<pre>Elder of Laurels@{2}{G}#Creature — Human Advisor${3}{G}: Target creature gets +X/+X until end of turn, where X is the number of creatures you control.%2%3<end>
+<pre>Strategy, Schmategy@{1}{R}#Sorcery$Roll a six-sided die for ~. On a 1, ~ has no effect. Otherwise, it has one of the following effects.|2 Destroy all artifacts.|3 Destroy all lands.|4 ~ deals 3 damage to each creature and player.|5 Each player discards his or her hand and draws seven cards. |6 Roll the die two more times.<end>
+<pre>Ramosian Captain@{1}{W}{W}#Creature — Human Rebel$First strike|{5}, {T}: Search your library for a Rebel permanent card with converted mana cost 4 or less and put it onto the battlefield. Then shuffle your library.%2%2<end>
+<pre>Ghostly Flame@{B}{R}#Enchantment$Black and/or red permanents and spells are colorless sources of damage.<end>
+<pre>Peregrine Griffin@{4}{W}#Creature — Griffin$Flying|First strike (This creature deals combat damage before creatures without first strike.)%2%4<end>
+<pre>Wasteland Strangler@{2}{B}#Creature — Eldrazi Processor$Devoid (This card has no color.)|When ~ enters the battlefield, you may put a card an opponent owns from exile into that player's graveyard. If you do, target creature gets -3/-3 until end of turn.%3%2<end>
+<pre>Gods Willing@{W}#Instant$Target creature you control gains protection from the color of your choice until end of turn. Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)<end>
+<pre>Robber Fly@{2}{R}#Creature — Insect$Flying|Whenever ~ becomes blocked, defending player discards all the cards in his or her hand, then draws that many cards.%1%1<end>
+<pre>Cobra Trap@{4}{G}{G}#Instant — Trap$If a noncreature permanent under your control was destroyed this turn by a spell or ability an opponent controlled, you may pay {G} rather than pay ~'s mana cost.|Create four 1/1 green Snake creature tokens.<end>
+<pre>Shattering Spree@{R}#Sorcery$Replicate {R} (When you cast this spell, copy it for each time you paid its replicate cost. You may choose new targets for the copies.)|Destroy target artifact.<end>
+<pre>Ripscale Predator@{4}{R}{R}#Creature — Lizard$Menace (This creature can't be blocked except by two or more creatures.)%6%5<end>
+<pre>Psychic Possession@{2}{U}{U}#Enchantment — Aura$Enchant opponent|Skip your draw step.|Whenever enchanted opponent draws a card, you may draw a card.<end>
+<pre>Devoted Druid@{1}{G}#Creature — Elf Druid${T}: Add {G} to your mana pool.|Put a -1/-1 counter on ~: Untap ~.%0%2<end>
+<pre>Thrive@{X}{G}#Sorcery$Put a +1/+1 counter on each of X target creatures.<end>
