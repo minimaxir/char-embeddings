@@ -3,13 +3,13 @@ import json
 file_path = "/Users/maxwoolf/Downloads/AllCards.json"
 
 separators = {
-    'pre': "<pre>",
+    'pre': "[",
     'name_manaCost': "@",
     'manaCost_cardtype': "#",
     'cardtype_text': "$",
     'text_power': '%',
     'power_toughness': '^',
-    'end': "<end>"
+    'end': "]"
 }
 with open('magic_cards.txt', 'wb') as f:
     with open(file_path, 'rb') as data:
@@ -19,14 +19,14 @@ with open('magic_cards.txt', 'wb') as f:
         for name in names:
             card = cards[name]
             if not isinstance(card['name'], list):
-                manaCost = card['manaCost']
-                cardtype = card['type']
-                text = card['text'].replace(name, "~").replace("\n", "|")
+                manaCost = card.get('manaCost', '')
+                cardtype = card.get('type', '')
+                text = card.get('text', '').replace(name, "~").replace("\n", "|")
                 power_toughness_string = ''
 
                 if 'power' in card:
                     power_toughness_string = separators['text_power'] + \
-                        card['power'] + separators['text_power'] + \
+                        card['power'] + separators['power_toughness'] + \
                         card['toughness']
 
                 card_processed = (separators['pre'] + name + separators['name_manaCost'] +
