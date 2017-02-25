@@ -13,7 +13,7 @@ has at least ~100k characters. ~1M is better.
 from __future__ import print_function
 from keras.models import Sequential
 from keras.layers import Dense, Activation, Dropout, Embedding, Flatten
-from keras.layers import LSTM, Convolution1D, MaxPooling1D, Bidirectional
+from keras.layers import LSTM, Convolution1D, MaxPooling1D, Bidirectional, TimeDistributed, GRU
 from keras.optimizers import RMSprop, Adam
 from keras.utils.data_utils import get_file
 from keras.layers.normalization import BatchNormalization
@@ -57,10 +57,10 @@ print('Build model...')
 model = Sequential()
 model.add(Embedding(len(chars), 50, input_length=maxlen))
 
-model.add(Convolution1D(64, 3, border_mode='valid', subsample_length=1))
-model.add(BatchNormalization(axis=1))
-model.add(Activation('relu'))
-model.add(Flatten())
+# model.add(Convolution1D(32, 3, border_mode='valid', subsample_length=1))
+# model.add(Activation('relu'))
+# model.add(BatchNormalization())
+# model.add(Flatten())
 
 # model.add(MaxPooling1D())
 # model.add(Activation('relu'))
@@ -74,11 +74,11 @@ model.add(Flatten())
 # model.add(Activation('relu'))
 # model.add(BatchNormalization())
 
-model.add(Dense(256))
-model.add(Activation('relu'))
-model.add(BatchNormalization())
+# model.add(Dense(256))
+# model.add(Activation('relu'))
+# model.add(BatchNormalization())
 
-# model.add(Dense(128))
+# model.add(TimeDistributed(Dense(16)))
 # model.add(Activation('relu'))
 # model.add(BatchNormalization())
 
@@ -91,13 +91,16 @@ model.add(BatchNormalization())
 # model.add(Activation('relu'))
 # model.add(BatchNormalization())
 
-# model.add(LSTM(128))
+# model.add(Bidirectional(LSTM(16, return_sequences=True)))
 # model.add(BatchNormalization())
+
+model.add(Bidirectional(GRU(16)))
+model.add(BatchNormalization())
 
 model.add(Dense(len(chars)))
 model.add(Activation('softmax'))
 
-optimizer = Adam(lr=0.01)
+optimizer = Adam()
 model.compile(loss='categorical_crossentropy', optimizer=optimizer)
 
 
