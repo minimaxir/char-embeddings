@@ -13,7 +13,7 @@ has at least ~100k characters. ~1M is better.
 from __future__ import print_function
 from keras.models import Sequential, Model
 from keras.layers import Dense, Activation, Dropout, Embedding, Flatten
-from keras.layers import LSTM, Convolution1D, MaxPooling1D, Bidirectional, TimeDistributed, GRU, Input, merge
+from keras.layers import LSTM, Convolution1D, MaxPooling1D, Bidirectional, TimeDistributed, GRU, Input, merge, AveragePooling1D
 from keras.optimizers import RMSprop, Adam
 from keras.utils.data_utils import get_file
 from keras.layers.normalization import BatchNormalization
@@ -23,7 +23,7 @@ import random
 import sys
 
 embeddings_path = "glove.840B.300d-char.txt"
-embedding_dim = 50
+embedding_dim = 100
 batch_size = 128
 lr = 0.01
 lr_decay = 1e-5
@@ -103,10 +103,6 @@ for i in range(len(nb_filters)):
                                activation='relu',
                                subsample_length=1)
     conv_out = conv_layer(embedded)
-    # we use max pooling:
-    #conv_out = MaxPooling1D(pool_length=conv_layer.output_shape[1])(conv_out)
-    # We flatten the output of the conv layer,
-    # so that we can concat all conv outpus and add a vanilla dense layer:
     conv_out = Flatten()(conv_out)
     convs.append(conv_out)
 
