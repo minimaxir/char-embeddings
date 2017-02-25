@@ -17,9 +17,13 @@ from keras.layers import LSTM, Convolution1D, MaxPooling1D, Bidirectional, TimeD
 from keras.optimizers import RMSprop, Adam
 from keras.utils.data_utils import get_file
 from keras.layers.normalization import BatchNormalization
+from sklearn.decomposition import PCA
 import numpy as np
 import random
 import sys
+
+embeddings_path = "glove.840B.300d-char.txt"
+embedding_dim = 100
 
 #path = get_file('nietzsche.txt', origin="https://s3.amazonaws.com/text-datasets/nietzsche.txt")
 text = open('magic_cards.txt').read()
@@ -40,6 +44,7 @@ for i in range(0, len(text) - maxlen, step):
     next_chars.append(text[i + maxlen])
 print('nb sequences:', len(sentences))
 
+
 print('Vectorization...')
 X = np.zeros((len(sentences), maxlen), dtype=np.int)
 y = np.zeros((len(sentences), len(chars)), dtype=np.bool)
@@ -48,15 +53,39 @@ for i, sentence in enumerate(sentences):
         X[i, t] = char_indices[char]
     y[i, char_indices[next_chars[i]]] = 1
 
-print (X[0, :])
-print (y[0, :])
+# print (X[0, :])
+# print (y[0, :])
 
+
+# https://blog.keras.io/using-pre-trained-word-embeddings-in-a-keras-model.html
+print('Processing pretrained character embeds...')
+embedding_vectors = {}
+with open(embeddings_path, 'r') as f:
+    for line in f:
+        line_split = line.strip().split(" ")
+        vec = np.array(line_split[1:], dtype=float)
+        char = line_split[0]
+        embedding_vectors[char] = vec
+
+embedding_matrix = np.zeros((len(chars), 300))
+for char, i in char_indices.items():
+    embedding_vector = embedding_vectors.get(char)
+    if embedding_vector is not None:
+        embedding_matrix[i] = embedding_vector
+
+# Use PCA from sklearn to reduce 300D -> 100D
+pca = PCA(n_components=embedding_dim)
+pca.fit(embedding_matrix)
+embedding_matrix_pca = np.array(pca.transform(embedding_matrix))
+print (embedding_matrix_pca)
+print (embedding_matrix_pca.shape)
 
 # build the model: a single LSTM
 print('Build model...')
 #model = Sequential()
 main_input = Input(shape=(maxlen,))
-embedding_layer = Embedding(len(chars), 50, input_length=maxlen)
+embedding_layer = Embedding(
+    len(chars), embedding_dim, input_length=maxlen, weights=[embedding_matrix_pca])
 embedded = embedding_layer(main_input)
 
 # we add a Convolution1D for each filter length, which will learn nb_filters[i]
@@ -131,7 +160,7 @@ main_output = Dense(len(chars), activation='softmax')(x)
 
 model = Model(input=main_input, output=main_output)
 
-optimizer = Adam()
+optimizer = Adam(lr=0.01, decay=1e-5)
 model.compile(loss='categorical_crossentropy', optimizer=optimizer)
 
 
