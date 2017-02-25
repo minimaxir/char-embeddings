@@ -11,9 +11,9 @@ has at least ~100k characters. ~1M is better.
 '''
 
 from __future__ import print_function
-from keras.models import Sequential
+from keras.models import Sequential, Model
 from keras.layers import Dense, Activation, Dropout, Embedding, Flatten
-from keras.layers import LSTM, Convolution1D, MaxPooling1D, Bidirectional, TimeDistributed, GRU
+from keras.layers import LSTM, Convolution1D, MaxPooling1D, Bidirectional, TimeDistributed, GRU, Input, merge
 from keras.optimizers import RMSprop, Adam
 from keras.utils.data_utils import get_file
 from keras.layers.normalization import BatchNormalization
@@ -54,8 +54,32 @@ print (y[0, :])
 
 # build the model: a single LSTM
 print('Build model...')
-model = Sequential()
-model.add(Embedding(len(chars), 50, input_length=maxlen))
+#model = Sequential()
+main_input = Input(shape=(maxlen,))
+embedding_layer = Embedding(len(chars), 50, input_length=maxlen)
+embedded = embedding_layer(main_input)
+
+# we add a Convolution1D for each filter length, which will learn nb_filters[i]
+# word group filters of size filter_lengths[i]:
+convs = []
+filter_lengths = [1, 2, 3, 4, 5, 6, 7]
+nb_filters = [25, 25, 50, 50, 50, 50, 50]
+for i in range(len(nb_filters)):
+    conv_layer = Convolution1D(nb_filter=nb_filters[i],
+                               filter_length=filter_lengths[i],
+                               border_mode='valid',
+                               activation='relu',
+                               subsample_length=1)
+    conv_out = conv_layer(embedded)
+    # we use max pooling:
+    #conv_out = MaxPooling1D(pool_length=conv_layer.output_shape[1])(conv_out)
+    # We flatten the output of the conv layer,
+    # so that we can concat all conv outpus and add a vanilla dense layer:
+    conv_out = Flatten()(conv_out)
+    convs.append(conv_out)
+
+# concat all conv outputs
+x = merge(convs, mode='concat')
 
 # model.add(Convolution1D(32, 3, border_mode='valid', subsample_length=1))
 # model.add(Activation('relu'))
@@ -86,6 +110,9 @@ model.add(Embedding(len(chars), 50, input_length=maxlen))
 # model.add(Activation('relu'))
 # model.add(BatchNormalization())
 
+x = Dense(128)(x)
+x = BatchNormalization()(x)
+x = Activation('relu')(x)
 
 # model.add(Convolution1D(128, 3, border_mode='valid', subsample_length=1))
 # model.add(Activation('relu'))
@@ -94,11 +121,15 @@ model.add(Embedding(len(chars), 50, input_length=maxlen))
 # model.add(Bidirectional(LSTM(16, return_sequences=True)))
 # model.add(BatchNormalization())
 
-model.add(Bidirectional(GRU(16)))
-model.add(BatchNormalization())
+# model.add(Bidirectional(GRU(16)))
+# model.add(BatchNormalization())
 
-model.add(Dense(len(chars)))
-model.add(Activation('softmax'))
+# model.add(Dense(len(chars)))
+# model.add(Activation('softmax'))
+
+main_output = Dense(len(chars), activation='softmax')(x)
+
+model = Model(input=main_input, output=main_output)
 
 optimizer = Adam()
 model.compile(loss='categorical_crossentropy', optimizer=optimizer)
