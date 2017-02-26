@@ -17,11 +17,12 @@ from keras.layers import LSTM, Convolution1D, MaxPooling1D, Bidirectional, TimeD
 from keras.optimizers import RMSprop, Adam
 from keras.utils.data_utils import get_file
 from keras.layers.normalization import BatchNormalization
-from keras.callbacks import CSVLogger
+from keras.callbacks import Callback
 from sklearn.decomposition import PCA
 import numpy as np
 import random
 import sys
+import csv
 
 embeddings_path = "glove.840B.300d-char.txt"
 embedding_dim = 50
@@ -94,18 +95,14 @@ embedding_layer = Embedding(
     len(chars), embedding_dim, input_length=maxlen, weights=[embedding_matrix_pca] if use_pca else [embedding_matrix])
 embedded = embedding_layer(main_input)
 
-# we add a Convolution1D for each filter length, which will learn nb_filters[i]
-# word group filters of size filter_lengths[i]:
-convs = []
-#filter_lengths = [1, 2, 3, 4, 5, 6, 7]
-#nb_filters = [50, 50, 100, 100, 100, 100, 100]
 
-filter_lengths = [1, 2]
-nb_filters = [5, 5]
+convs = []
+
+nb_filters = [25, 25, 50, 50, 50, 50, 50]
 
 for i in range(len(nb_filters)):
     conv_layer = Convolution1D(nb_filter=nb_filters[i],
-                               filter_length=filter_lengths[i],
+                               filter_length=i + 1,
                                border_mode='valid',
                                activation='relu',
                                subsample_length=1)
@@ -186,17 +183,26 @@ def sample(preds, temperature=1.0):
 # csv_logger = CSVLogger('training.csv', append=True)
 # train the model, output generated text after each iteration
 
-#f = open('log.csv' 'wb')
-# log_writer = csv.writer(f)
-# log_writer.writerow(['iteration', 'batch', 'loss'])
+f = open('output/log.csv', 'w')
+log_writer = csv.writer(f)
+log_writer.writerow(['iteration', 'batch', 'loss'])
 
 
-for iteration in range(1, 100):
+class BatchLossLogger(Callback):
+
+    def on_batch_end(self, batch, logs={}):
+        if batch % 100 == 0:
+            log_writer.writerow([iteration, batch, logs.get('loss')])
+
+
+for iteration in range(1, 3):
     print()
     print('-' * 50)
     print('Iteration', iteration)
 
-    history = model.fit(X, y, batch_size=batch_size, nb_epoch=1)
+    logger = BatchLossLogger()
+    history = model.fit(X, y, batch_size=batch_size,
+                        nb_epoch=1, callbacks=[logger])
     loss = str(history.history['loss'][-1]).replace(".", "_")
 
     f2 = open('output/iter-{:02}-{:.6}.txt'.format(iteration, loss), 'w')
@@ -234,3 +240,4 @@ for iteration in range(1, 100):
         f2.write(generated + '\n')
         print()
     f2.close()
+f.close()
