@@ -17,13 +17,14 @@ from keras.layers import LSTM, Convolution1D, MaxPooling1D, Bidirectional, TimeD
 from keras.optimizers import RMSprop, Adam
 from keras.utils.data_utils import get_file
 from keras.layers.normalization import BatchNormalization
-from keras.callbacks import Callback
+from keras.callbacks import Callback, ModelCheckpoint
 from sklearn.decomposition import PCA
 import numpy as np
 import random
 import sys
 import csv
 import os
+import h5py
 
 embeddings_path = "glove.840B.300d-char.txt"
 embedding_dim = 50
@@ -31,6 +32,7 @@ batch_size = 128
 use_pca = True
 lr = 0.01
 lr_decay = 1e-4
+maxlen = 120
 
 text = open('magic_cards.txt').read()
 print('corpus length:', len(text))
@@ -41,7 +43,7 @@ char_indices = dict((c, i) for i, c in enumerate(chars))
 indices_char = dict((i, c) for i, c in enumerate(chars))
 
 # cut the text in semi-redundant sequences of maxlen characters
-maxlen = 80
+
 step = 3
 sentences = []
 next_chars = []
@@ -97,7 +99,7 @@ embedded = embedding_layer(main_input)
 
 convs = []
 
-nb_filters = [50, 50, 100, 100, 100, 100, 100]
+nb_filters = [50, 50, 100, 100]
 
 for i in range(len(nb_filters)):
     conv_layer = Convolution1D(nb_filter=nb_filters[i],
@@ -106,19 +108,15 @@ for i in range(len(nb_filters)):
                                activation='relu',
                                subsample_length=1)
     conv_out = conv_layer(embedded)
-    conv_merge = merge([AveragePooling1D(5)(conv_out),
-                        MaxPooling1D(5)(conv_out)], mode='concat')
-    conv_merge = Flatten()(conv_merge)
-    convs.append(conv_merge)
+    conv_out = Flatten()(conv_out)
+    convs.append(conv_out)
 
-# concat all conv outputs
 x = merge(convs, mode='concat')
 
-
 x = Dense(128)(x)
-# x = Dropout(0.2)(x)
 x = BatchNormalization()(x)
 x = Activation('relu')(x)
+
 
 main_output = Dense(len(chars), activation='softmax')(x)
 
@@ -138,19 +136,23 @@ def sample(preds, temperature=1.0):
     return np.argmax(probas)
 
 
+if not os.path.exists('output'):
+    os.makedirs('output')
+
 f = open('output/log.csv', 'w')
 log_writer = csv.writer(f)
 log_writer.writerow(['iteration', 'batch', 'loss'])
 
+checkpointer = ModelCheckpoint(
+    "output/model.hdf5", monitor='loss', save_best_only=True)
+
 
 class BatchLossLogger(Callback):
 
-    def on_batch_end(self, batch, logs={}):
+    def on_batch_begin(self, batch, logs={}):
         if batch % 100 == 0:
             log_writer.writerow([iteration, batch, logs.get('loss')])
 
-if not os.path.exists('output'):
-    os.makedirs('output')
 
 for iteration in range(1, 100):
     print()
@@ -159,7 +161,7 @@ for iteration in range(1, 100):
 
     logger = BatchLossLogger()
     history = model.fit(X, y, batch_size=batch_size,
-                        nb_epoch=1, callbacks=[logger])
+                        nb_epoch=1, callbacks=[logger, checkpointer])
     loss = str(history.history['loss'][-1]).replace(".", "_")
 
     f2 = open('output/iter-{:02}-{:.6}.txt'.format(iteration, loss), 'w')
