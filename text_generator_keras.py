@@ -31,8 +31,7 @@ use_pca = True
 lr = 0.01
 lr_decay = 1e-4
 
-#path = get_file('nietzsche.txt', origin="https://s3.amazonaws.com/text-datasets/nietzsche.txt")
-text = open('shakespeare.txt').read()
+text = open('magic_cards.txt').read()
 print('corpus length:', len(text))
 
 chars = sorted(list(set(text)))
@@ -79,7 +78,7 @@ for char, i in char_indices.items():
     if embedding_vector is not None:
         embedding_matrix[i] = embedding_vector
 
-# Use PCA from sklearn to reduce 300D -> 100D
+# Use PCA from sklearn to reduce 300D -> 50D
 if use_pca:
     pca = PCA(n_components=embedding_dim)
     pca.fit(embedding_matrix)
@@ -87,9 +86,8 @@ if use_pca:
     print (embedding_matrix_pca)
     print (embedding_matrix_pca.shape)
 
-# build the model: a single LSTM
+
 print('Build model...')
-#model = Sequential()
 main_input = Input(shape=(maxlen,))
 embedding_layer = Embedding(
     len(chars), embedding_dim, input_length=maxlen, weights=[embedding_matrix_pca] if use_pca else [embedding_matrix])
@@ -113,52 +111,11 @@ for i in range(len(nb_filters)):
 # concat all conv outputs
 x = merge(convs, mode='concat')
 
-# model.add(Convolution1D(32, 3, border_mode='valid', subsample_length=1))
-# model.add(Activation('relu'))
-# model.add(BatchNormalization())
-# model.add(Flatten())
-
-# model.add(MaxPooling1D())
-# model.add(Activation('relu'))
-# model.add(BatchNormalization())
-
-# model.add(Convolution1D(64, 3, border_mode='valid', subsample_length=1))
-# model.add(Activation('relu'))
-# model.add(BatchNormalization())
-
-# model.add(MaxPooling1D())
-# model.add(Activation('relu'))
-# model.add(BatchNormalization())
-
-# model.add(Dense(256))
-# model.add(Activation('relu'))
-# model.add(BatchNormalization())
-
-# model.add(TimeDistributed(Dense(16)))
-# model.add(Activation('relu'))
-# model.add(BatchNormalization())
-
-# model.add(Dense(128))
-# model.add(Activation('relu'))
-# model.add(BatchNormalization())
 
 x = Dense(128)(x)
 x = Dropout(0.2)(x)
 x = BatchNormalization()(x)
 x = Activation('relu')(x)
-
-# model.add(Convolution1D(128, 3, border_mode='valid', subsample_length=1))
-# model.add(Activation('relu'))
-# model.add(BatchNormalization())
-
-# model.add(Bidirectional(LSTM(16, return_sequences=True)))
-# model.add(BatchNormalization())
-
-# model.add(Bidirectional(GRU(16)))
-# model.add(BatchNormalization())
-
-# model.add(Dense(len(chars)))
-# model.add(Activation('softmax'))
 
 main_output = Dense(len(chars), activation='softmax')(x)
 
@@ -177,11 +134,6 @@ def sample(preds, temperature=1.0):
     probas = np.random.multinomial(1, preds, 1)
     return np.argmax(probas)
 
-# https://keras.io/callbacks/#history
-
-
-# csv_logger = CSVLogger('training.csv', append=True)
-# train the model, output generated text after each iteration
 
 f = open('output/log.csv', 'w')
 log_writer = csv.writer(f)
@@ -221,12 +173,10 @@ for iteration in range(1, 3):
         f2.write('----- Generating with seed: "' + sentence + '"' + '\n---\n')
         sys.stdout.write(generated)
 
-        for i in range(400):
+        for i in range(1200):
             x = np.zeros((1, maxlen), dtype=np.int)
             for t, char in enumerate(sentence):
                 x[0, t] = char_indices[char]
-
-            # print(x)
 
             preds = model.predict(x, verbose=0)[0]
             next_index = sample(preds, diversity)
