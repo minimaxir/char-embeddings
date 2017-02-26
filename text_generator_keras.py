@@ -23,6 +23,7 @@ import numpy as np
 import random
 import sys
 import csv
+import os
 
 embeddings_path = "glove.840B.300d-char.txt"
 embedding_dim = 50
@@ -96,7 +97,7 @@ embedded = embedding_layer(main_input)
 
 convs = []
 
-nb_filters = [25, 25, 50, 50, 50, 50, 50]
+nb_filters = [50, 50, 100, 100, 100, 100, 100]
 
 for i in range(len(nb_filters)):
     conv_layer = Convolution1D(nb_filter=nb_filters[i],
@@ -105,15 +106,17 @@ for i in range(len(nb_filters)):
                                activation='relu',
                                subsample_length=1)
     conv_out = conv_layer(embedded)
-    conv_out = Flatten()(conv_out)
-    convs.append(conv_out)
+    conv_merge = merge([AveragePooling1D(5)(conv_out),
+                        MaxPooling1D(5)(conv_out)], mode='concat')
+    conv_merge = Flatten()(conv_merge)
+    convs.append(conv_merge)
 
 # concat all conv outputs
 x = merge(convs, mode='concat')
 
 
 x = Dense(128)(x)
-x = Dropout(0.2)(x)
+# x = Dropout(0.2)(x)
 x = BatchNormalization()(x)
 x = Activation('relu')(x)
 
@@ -146,8 +149,10 @@ class BatchLossLogger(Callback):
         if batch % 100 == 0:
             log_writer.writerow([iteration, batch, logs.get('loss')])
 
+if not os.path.exists('output'):
+    os.makedirs('output')
 
-for iteration in range(1, 3):
+for iteration in range(1, 100):
     print()
     print('-' * 50)
     print('Iteration', iteration)
@@ -161,7 +166,7 @@ for iteration in range(1, 3):
 
     start_index = random.randint(0, len(text) - maxlen - 1)
 
-    for diversity in [0.2, 0.5, 1.0, 1.2]:
+    for diversity in [0, 0.2, 0.5, 1.0, 1.2]:
         print()
         print('----- diversity:', diversity)
         f2.write('----- diversity:' + ' ' + str(diversity) + '\n')
@@ -179,7 +184,8 @@ for iteration in range(1, 3):
                 x[0, t] = char_indices[char]
 
             preds = model.predict(x, verbose=0)[0]
-            next_index = sample(preds, diversity)
+            next_index = sample(
+                preds, diversity) if diversity > 0 else np.argmax(preds)
             next_char = indices_char[next_index]
 
             generated += next_char
