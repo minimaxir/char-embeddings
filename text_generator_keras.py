@@ -13,7 +13,7 @@ has at least ~100k characters. ~1M is better.
 from __future__ import print_function
 from keras.models import Sequential, Model
 from keras.layers import Dense, Activation, Dropout, Embedding, Flatten
-from keras.layers import LSTM, Convolution1D, MaxPooling1D, Bidirectional, TimeDistributed, GRU, Input, merge, AveragePooling1D
+from keras.layers import LSTM, Convolution1D, MaxPooling1D, Bidirectional, TimeDistributed, GRU, Input, merge, AveragePooling1D, SimpleRNN
 from keras.optimizers import RMSprop, Adam
 from keras.utils.data_utils import get_file
 from keras.layers.normalization import BatchNormalization
@@ -27,7 +27,7 @@ import os
 import h5py
 
 embeddings_path = "glove.840B.300d-char.txt"
-embedding_dim = 50
+embedding_dim = 100
 batch_size = 128
 use_pca = True
 lr = 0.01
@@ -60,9 +60,6 @@ for i, sentence in enumerate(sentences):
     for t, char in enumerate(sentence):
         X[i, t] = char_indices[char]
     y[i, char_indices[next_chars[i]]] = 1
-
-# print (X[0, :])
-# print (y[0, :])
 
 
 # https://blog.keras.io/using-pre-trained-word-embeddings-in-a-keras-model.html
@@ -99,7 +96,7 @@ embedded = embedding_layer(main_input)
 
 convs = []
 
-nb_filters = [50, 50, 100, 100]
+nb_filters = [50, 50, 100, 100, 100, 100, 100]
 
 for i in range(len(nb_filters)):
     conv_layer = Convolution1D(nb_filter=nb_filters[i],
@@ -108,14 +105,20 @@ for i in range(len(nb_filters)):
                                activation='relu',
                                subsample_length=1)
     conv_out = conv_layer(embedded)
+    # conv_out = Convolution1D(nb_filter=int(nb_filters[i] / 10),
+    #                          filter_length=len(nb_filters)-(i + 1),
+    #                          border_mode='valid',
+    #                          activation='relu',
+    #                          subsample_length=1)(conv_out)
     conv_out = Flatten()(conv_out)
+    # conv_out = Dense(16, activation='relu')(conv_out)
+    # conv_out = BatchNormalization()(conv_out)
     convs.append(conv_out)
 
 x = merge(convs, mode='concat')
 
-x = Dense(128)(x)
+x = Dense(128, activation='relu')(x)
 x = BatchNormalization()(x)
-x = Activation('relu')(x)
 
 
 main_output = Dense(len(chars), activation='softmax')(x)
@@ -124,6 +127,7 @@ model = Model(input=main_input, output=main_output)
 
 optimizer = Adam(lr=lr, decay=lr_decay)
 model.compile(loss='categorical_crossentropy', optimizer=optimizer)
+model.summary()
 
 
 def sample(preds, temperature=1.0):
