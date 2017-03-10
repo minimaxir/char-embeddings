@@ -21,19 +21,24 @@ with open('magic_cards.txt', 'wb') as f:
             if not isinstance(card['name'], list):
                 manaCost = card.get('manaCost', '')
                 cardtype = card.get('type', '')
-                text = card.get('text', '').replace(name, "~").replace("\n", "|")
-                power_toughness_string = ''
+                text = card.get('text', '').replace(
+                    name, "~").replace("\n", "|")
+                power = card.get('power', '')
+                toughness = card.get('toughness', '')
 
-                if 'power' in card:
-                    power_toughness_string = separators['text_power'] + \
-                        card['power'] + separators['power_toughness'] + \
-                        card['toughness']
-
-                card_processed = (separators['pre'] + name + separators['name_manaCost'] +
+                card_processed = (separators['pre'] +
+                                  name +
+                                  separators['name_manaCost'] +
                                   manaCost +
-                                  separators['manaCost_cardtype'] + cardtype +
+                                  separators['manaCost_cardtype'] +
+                                  cardtype +
                                   separators['cardtype_text'] +
-                                  text + power_toughness_string + separators['end'] +
+                                  text +
+                                  separators['text_power'] +
+                                  power +
+                                  separators['power_toughness'] +
+                                  toughness +
+                                  separators['end'] +
                                   "\n")
 
                 f.write(card_processed.encode('utf-8'))
