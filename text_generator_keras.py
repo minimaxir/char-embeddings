@@ -21,6 +21,7 @@ use_pca = False
 lr = 0.001
 lr_decay = 1e-4
 maxlen = 40
+device = 'cpu'
 
 text = open('magic_cards.txt').read()
 print('corpus length:', len(text))
@@ -50,10 +51,14 @@ for i, sentence in enumerate(sentences):
     y[i, char_indices[next_chars[i]]] = 1
 
 
-# # test code to sample on 1% for functional model testing
-# idx = np.random.randint(X.shape[0], size=int(X.shape[0] * 0.01))
-# X = X[idx, :]
-# y = y[idx]
+# test code to sample on 1% for functional model testing
+
+def random_subset(X, y, p=0.1):
+
+    idx = np.random.randint(X.shape[0], size=int(X.shape[0] * p))
+    X = X[idx, :]
+    y = y[idx]
+    return (X, y)
 
 
 # https://blog.keras.io/using-pre-trained-word-embeddings-in-a-keras-model.html
@@ -87,27 +92,14 @@ embedding_layer = Embedding(
     len(chars), embedding_dim, input_length=maxlen, weights=[embedding_matrix_pca] if use_pca else [embedding_matrix])
 embedded = embedding_layer(main_input)
 
-lstm = LSTM(128, consume_less='cpu')(embedded)
+lstm = LSTM(256, consume_less=device)(embedded)
 lstm = BatchNormalization()(lstm)
 
-conv = Convolution1D(50, 2, border_mode='valid', subsample_length=1)(embedded)
-conv = Activation('relu')(conv)
-conv = BatchNormalization()(conv)
+hidden = Dense(1024)(lstm)
+hidden = Activation('relu')(hidden)
+hidden = BatchNormalization()(hidden)
 
-avg_pool = AveragePooling1D(5)(conv)
-avg_pool = Flatten()(avg_pool)
-
-max_pool = MaxPooling1D(5)(conv)
-max_pool = Flatten()(max_pool)
-
-x = merge([lstm, avg_pool, max_pool], mode="concat")
-
-x = Dense(512)(x)
-x = Activation('relu')(x)
-x = BatchNormalization()(x)
-
-
-main_output = Dense(len(chars))(x)
+main_output = Dense(len(chars))(hidden)
 main_output = Activation('softmax')(main_output)
 
 model = Model(input=main_input, output=main_output)
@@ -154,6 +146,7 @@ for iteration in range(1, 100):
     print('Iteration', iteration)
 
     logger = BatchLossLogger()
+    # X_train, y_train = random_subset(X, y)
     history = model.fit(X, y, batch_size=batch_size,
                         nb_epoch=1, callbacks=[logger, checkpointer])
     loss = str(history.history['loss'][-1]).replace(".", "_")
