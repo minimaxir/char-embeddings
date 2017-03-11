@@ -87,30 +87,20 @@ embedding_layer = Embedding(
     len(chars), embedding_dim, input_length=maxlen, weights=[embedding_matrix_pca] if use_pca else [embedding_matrix])
 embedded = embedding_layer(main_input)
 
+lstm = LSTM(128, consume_less='cpu')(embedded)
+lstm = BatchNormalization()(lstm)
 
-# convs = []
+conv = Convolution1D(50, 2, border_mode='valid', subsample_length=1)(embedded)
+conv = Activation('relu')(conv)
+conv = BatchNormalization()(conv)
 
-# nb_filters = [25, 25, 50, 50, 50, 50, 50]
+avg_pool = AveragePooling1D(5)(conv)
+avg_pool = Flatten()(avg_pool)
 
-# for i in range(len(nb_filters)):
-#     conv_layer = Convolution1D(int(nb_filters[i] / 5),
-#                                filter_length=i + 1,
-#                                border_mode='valid',
-#                                subsample_length=1,
-#                                bias=False)
+max_pool = MaxPooling1D(5)(conv)
+max_pool = Flatten()(max_pool)
 
-#     conv_out = conv_layer(embedded)
-#     conv_out = BatchNormalization()(conv_out)
-#     conv_out = Activation('relu')(conv_out)
-
-#     conv_out = Flatten()(conv_out)
-
-#     convs.append(conv_out)
-
-# x = merge(convs, mode='concat')
-
-x = LSTM(128, consume_less='cpu')(embedded)
-x = BatchNormalization()(x)
+x = merge([lstm, avg_pool, max_pool], mode="concat")
 
 x = Dense(512)(x)
 x = Activation('relu')(x)
@@ -130,8 +120,11 @@ model.summary()
 def sample(preds, temperature=1.0):
     # helper function to sample an index from a probability array
     preds = np.asarray(preds).astype('float64')
-    preds = np.log(preds + 1e-6) / temperature
-    exp_preds = np.exp(preds)
+    if diversity > 0:
+        preds = np.log(preds + 1e-6) / temperature
+        exp_preds = np.exp(preds)
+    else:
+        exp_preds = preds
     preds = exp_preds / np.sum(exp_preds)
     probas = np.random.multinomial(1, preds, 1)
     return np.argmax(probas)
@@ -187,8 +180,7 @@ for iteration in range(1, 100):
                 x[0, t] = char_indices[char]
 
             preds = model.predict(x, verbose=0)[0]
-            next_index = sample(
-                preds, diversity) if diversity > 0 else np.argmax(preds)
+            next_index = sample(preds, diversity)
             next_char = indices_char[next_index]
 
             generated += next_char
