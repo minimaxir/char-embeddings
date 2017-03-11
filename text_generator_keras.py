@@ -20,7 +20,7 @@ batch_size = 128
 use_pca = False
 lr = 0.001
 lr_decay = 1e-4
-maxlen = 120
+maxlen = 40
 
 text = open('magic_cards.txt').read()
 print('corpus length:', len(text))
@@ -88,30 +88,33 @@ embedding_layer = Embedding(
 embedded = embedding_layer(main_input)
 
 
-convs = []
+# convs = []
 
-nb_filters = [25, 25, 50, 50, 50, 50, 50]
+# nb_filters = [25, 25, 50, 50, 50, 50, 50]
 
-for i in range(len(nb_filters)):
-    conv_layer = Convolution1D(int(nb_filters[i] / 5),
-                               filter_length=i + 1,
-                               border_mode='valid',
-                               subsample_length=1,
-                               bias=False)
+# for i in range(len(nb_filters)):
+#     conv_layer = Convolution1D(int(nb_filters[i] / 5),
+#                                filter_length=i + 1,
+#                                border_mode='valid',
+#                                subsample_length=1,
+#                                bias=False)
 
-    conv_out = conv_layer(embedded)
-    conv_out = BatchNormalization()(conv_out)
-    conv_out = Activation('relu')(conv_out)
+#     conv_out = conv_layer(embedded)
+#     conv_out = BatchNormalization()(conv_out)
+#     conv_out = Activation('relu')(conv_out)
 
-    conv_out = Flatten()(conv_out)
+#     conv_out = Flatten()(conv_out)
 
-    convs.append(conv_out)
+#     convs.append(conv_out)
 
-x = merge(convs, mode='concat')
+# x = merge(convs, mode='concat')
 
-x = Dense(128, bias=False)(x)
+x = LSTM(128, consume_less='cpu')(embedded)
 x = BatchNormalization()(x)
+
+x = Dense(512)(x)
 x = Activation('relu')(x)
+x = BatchNormalization()(x)
 
 
 main_output = Dense(len(chars))(x)
