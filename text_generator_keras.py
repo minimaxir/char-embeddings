@@ -92,10 +92,10 @@ embedding_layer = Embedding(
     len(chars), embedding_dim, input_length=maxlen, weights=[embedding_matrix_pca] if use_pca else [embedding_matrix])
 embedded = embedding_layer(main_input)
 
-lstm = LSTM(256, consume_less=device)(embedded)
+lstm = LSTM(128, consume_less=device)(embedded)
 lstm = BatchNormalization()(lstm)
 
-hidden = Dense(1024)(lstm)
+hidden = Dense(2048)(lstm)
 hidden = Activation('relu')(hidden)
 hidden = BatchNormalization()(hidden)
 
