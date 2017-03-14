@@ -20,7 +20,7 @@ batch_size = 128
 use_pca = False
 lr = 0.001
 lr_decay = 1e-4
-maxlen = 40
+maxlen = 10
 device = 'cpu'
 
 text = open('magic_cards.txt').read()
@@ -71,8 +71,10 @@ with open(embeddings_path, 'r') as f:
         char = line_split[0]
         embedding_vectors[char] = vec
 
-embedding_matrix = np.zeros((len(chars), 300))
+#embedding_matrix = np.zeros((len(chars), 300))
+embedding_matrix = np.random.uniform(-1, 1, (len(chars), 300))
 for char, i in char_indices.items():
+    #print ("{}, {}".format(char, i))
     embedding_vector = embedding_vectors.get(char)
     if embedding_vector is not None:
         embedding_matrix[i] = embedding_vector
@@ -88,16 +90,19 @@ if use_pca:
 
 print('Build model...')
 main_input = Input(shape=(maxlen,))
+# embedding_layer = Embedding(
+#     len(chars), embedding_dim, input_length=maxlen, weights=[embedding_matrix_pca] if use_pca else [embedding_matrix])
 embedding_layer = Embedding(
-    len(chars), embedding_dim, input_length=maxlen, weights=[embedding_matrix_pca] if use_pca else [embedding_matrix])
+    len(chars), embedding_dim, input_length=maxlen)
 embedded = embedding_layer(main_input)
 
 lstm = LSTM(128, consume_less=device)(embedded)
-lstm = BatchNormalization()(lstm)
+#lstm = BatchNormalization()(lstm)
 
-hidden = Dense(2048)(lstm)
-hidden = Activation('relu')(hidden)
+hidden = Dense(2048, bias=False)(lstm)
 hidden = BatchNormalization()(hidden)
+hidden = Activation('relu')(hidden)
+
 
 main_output = Dense(len(chars))(hidden)
 main_output = Activation('softmax')(main_output)
