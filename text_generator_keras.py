@@ -98,10 +98,8 @@ embedding_layer = Embedding(
 embedded = embedding_layer(main_input)
 
 # RNN Layers
-rnn = LSTM(128, implementation=2)(embedded)
+rnn = LSTM(256, implementation=2)(embedded)
 rnn = BatchNormalization()(rnn)
-# gru = GRU(64)(embedded)
-# rnn = concatenate([lstm, gru])
 
 aux_output = Dense(len(chars))(rnn)
 aux_output = Activation('softmax', name='aux_out')(aux_output)
@@ -111,11 +109,7 @@ hidden = Dense(512)(rnn)
 hidden = BatchNormalization()(hidden)
 hidden = Activation('relu')(hidden)
 
-hidden = Dense(512)(hidden)
-hidden = BatchNormalization()(hidden)
-hidden = Activation('relu')(hidden)
-
-hidden = Dense(512)(hidden)
+hidden = Dense(512)(rnn)
 hidden = BatchNormalization()(hidden)
 hidden = Activation('relu')(hidden)
 
@@ -176,7 +170,7 @@ for iteration in range(1, 100):
 
     start_index = random.randint(0, len(text) - maxlen - 1)
 
-    for diversity in [0, 0.2, 0.5, 1.0, 1.2]:
+    for diversity in [0.2, 0.5, 1.0, 1.2]:
         print()
         print('----- diversity:', diversity)
         f2.write('----- diversity:' + ' ' + str(diversity) + '\n')
