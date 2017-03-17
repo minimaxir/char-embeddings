@@ -98,7 +98,7 @@ embedding_layer = Embedding(
 embedded = embedding_layer(main_input)
 
 # RNN Layers
-rnn = LSTM(128, implementation=0)(embedded)
+rnn = LSTM(128, implementation=2)(embedded)
 rnn = BatchNormalization()(rnn)
 # gru = GRU(64)(embedded)
 # rnn = concatenate([lstm, gru])
