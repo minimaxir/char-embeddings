@@ -2,6 +2,7 @@ from __future__ import print_function
 from keras.models import Sequential, Model
 from keras.layers import Dense, Activation, Dropout, Embedding, Flatten
 from keras.layers import LSTM, Convolution1D, MaxPooling1D, Bidirectional, TimeDistributed, GRU, Input, merge, AveragePooling1D, SimpleRNN
+from keras.layers.merge import concatenate
 from keras.optimizers import RMSprop, Adam
 from keras.utils.data_utils import get_file
 from keras.layers.normalization import BatchNormalization
@@ -97,7 +98,10 @@ embedding_layer = Embedding(
 embedded = embedding_layer(main_input)
 
 # RNN Layers
-rnn = LSTM(128)(embedded)
+rnn = LSTM(128, implementation=0)(embedded)
+rnn = BatchNormalization()(rnn)
+# gru = GRU(64)(embedded)
+# rnn = concatenate([lstm, gru])
 
 aux_output = Dense(len(chars))(rnn)
 aux_output = Activation('softmax', name='aux_out')(aux_output)
