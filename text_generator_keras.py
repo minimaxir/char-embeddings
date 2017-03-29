@@ -8,12 +8,14 @@ from keras.utils.data_utils import get_file
 from keras.layers.normalization import BatchNormalization
 from keras.callbacks import Callback, ModelCheckpoint
 from sklearn.decomposition import PCA
+from keras.utils import plot_model
 import numpy as np
 import random
 import sys
 import csv
 import os
 import h5py
+import time
 
 embeddings_path = "glove.840B.300d-char.txt"
 embedding_dim = 300
@@ -21,7 +23,8 @@ batch_size = 128
 use_pca = False
 lr = 0.001
 lr_decay = 1e-4
-maxlen = 40
+maxlen = 5
+consume_less = 0   # 0 for cpu, 2 for gpu
 
 text = open('magic_cards.txt').read()
 print('corpus length:', len(text))
@@ -51,7 +54,7 @@ for i, sentence in enumerate(sentences):
     y[i, char_indices[next_chars[i]]] = 1
 
 
-# test code to sample on 1% for functional model testing
+# test code to sample on 10% for functional model testing
 
 def random_subset(X, y, p=0.1):
 
@@ -71,8 +74,8 @@ with open(embeddings_path, 'r') as f:
         char = line_split[0]
         embedding_vectors[char] = vec
 
-#embedding_matrix = np.zeros((len(chars), 300))
-embedding_matrix = np.random.uniform(-1, 1, (len(chars), 300))
+embedding_matrix = np.zeros((len(chars), 300))
+#embedding_matrix = np.random.uniform(-1, 1, (len(chars), 300))
 for char, i in char_indices.items():
     #print ("{}, {}".format(char, i))
     embedding_vector = embedding_vectors.get(char)
@@ -98,18 +101,18 @@ embedding_layer = Embedding(
 embedded = embedding_layer(main_input)
 
 # RNN Layers
-rnn = LSTM(256, implementation=2)(embedded)
+rnn = LSTM(32, implementation=consume_less)(embedded)
 rnn = BatchNormalization()(rnn)
 
 aux_output = Dense(len(chars))(rnn)
 aux_output = Activation('softmax', name='aux_out')(aux_output)
 
 # Hidden Layers
-hidden = Dense(512)(rnn)
+hidden = Dense(512, bias=False)(rnn)
 hidden = BatchNormalization()(hidden)
 hidden = Activation('relu')(hidden)
 
-hidden = Dense(512)(rnn)
+hidden = Dense(512, bias=False)(hidden)
 hidden = BatchNormalization()(hidden)
 hidden = Activation('relu')(hidden)
 
@@ -123,15 +126,14 @@ model.compile(loss='categorical_crossentropy',
               optimizer=optimizer, loss_weights=[1., 0.2])
 model.summary()
 
+# plot_model(model, to_file='model.png', show_shapes=True)
+
 
 def sample(preds, temperature=1.0):
     # helper function to sample an index from a probability array
     preds = np.asarray(preds).astype('float64')
-    if diversity > 0:
-        preds = np.log(preds + 1e-6) / temperature
-        exp_preds = np.exp(preds)
-    else:
-        exp_preds = preds
+    preds = np.log(preds + 1e-6) / temperature
+    exp_preds = np.exp(preds)
     preds = exp_preds / np.sum(exp_preds)
     probas = np.random.multinomial(1, preds, 1)
     return np.argmax(probas)
@@ -142,7 +144,8 @@ if not os.path.exists('output'):
 
 f = open('output/log.csv', 'w')
 log_writer = csv.writer(f)
-log_writer.writerow(['iteration', 'batch', 'main_out_loss'])
+log_writer.writerow(['iteration', 'batch', 'batch_loss',
+                    'epoch_loss', 'elapsed_time'])
 
 checkpointer = ModelCheckpoint(
     "output/model.hdf5", monitor='main_out_loss', save_best_only=True)
@@ -150,11 +153,18 @@ checkpointer = ModelCheckpoint(
 
 class BatchLossLogger(Callback):
 
+    def on_epoch_begin(self, epoch, logs={}):
+        self.losses = []
+
     def on_batch_end(self, batch, logs={}):
-        if batch % 100 == 0:
-            log_writer.writerow([iteration, batch, logs.get('loss')])
+        self.losses.append(logs.get('main_out_loss'))
+        if batch % 50 == 0:
+            log_writer.writerow([iteration, batch,
+                                 logs.get('main_out_loss'),
+                                 np.mean(self.losses),
+                                 round(time.time() - start_time, 2)])
 
-
+start_time = time.time()
 for iteration in range(1, 100):
     print()
     print('-' * 50)
