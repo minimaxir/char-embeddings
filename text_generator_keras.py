@@ -23,7 +23,7 @@ batch_size = 128
 use_pca = False
 lr = 0.001
 lr_decay = 1e-4
-maxlen = 5
+maxlen = 40
 consume_less = 0   # 0 for cpu, 2 for gpu
 
 text = open('magic_cards.txt').read()
@@ -54,9 +54,9 @@ for i, sentence in enumerate(sentences):
     y[i, char_indices[next_chars[i]]] = 1
 
 
-# test code to sample on 10% for functional model testing
+# test code to sample on 1% for functional model testing
 
-def random_subset(X, y, p=0.1):
+def random_subset(X, y, p=0.01):
 
     idx = np.random.randint(X.shape[0], size=int(X.shape[0] * p))
     X = X[idx, :]
@@ -93,30 +93,30 @@ if use_pca:
 
 print('Build model...')
 main_input = Input(shape=(maxlen,))
-# embedding_layer = Embedding(
-# len(chars), embedding_dim, input_length=maxlen,
-# weights=[embedding_matrix_pca] if use_pca else [embedding_matrix])
 embedding_layer = Embedding(
-    len(chars), embedding_dim, input_length=maxlen)
+    len(chars), embedding_dim, input_length=maxlen,
+    weights=[embedding_matrix_pca] if use_pca else [embedding_matrix])
+# embedding_layer = Embedding(
+#     len(chars), embedding_dim, input_length=maxlen)
 embedded = embedding_layer(main_input)
 
 # RNN Layers
-rnn = LSTM(32, implementation=consume_less)(embedded)
-rnn = BatchNormalization()(rnn)
+rnn = LSTM(128, implementation=consume_less)(embedded)
+rnn = BatchNormalization(rnn)
 
 aux_output = Dense(len(chars))(rnn)
 aux_output = Activation('softmax', name='aux_out')(aux_output)
 
 # Hidden Layers
-hidden = Dense(512, bias=False)(rnn)
-hidden = BatchNormalization()(hidden)
-hidden = Activation('relu')(hidden)
+hidden_1 = Dense(512, bias=False)(rnn)
+hidden_1 = BatchNormalization()(hidden_1)
+hidden_1 = Activation('relu')(hidden_1)
 
-hidden = Dense(512, bias=False)(hidden)
-hidden = BatchNormalization()(hidden)
-hidden = Activation('relu')(hidden)
+hidden_2 = Dense(256, bias=False)(hidden_1)
+hidden_2 = BatchNormalization()(hidden_2)
+hidden_2 = Activation('relu')(hidden_2)
 
-main_output = Dense(len(chars))(hidden)
+main_output = Dense(len(chars))(hidden_2)
 main_output = Activation('softmax', name='main_out')(main_output)
 
 model = Model(input=main_input, output=[main_output, aux_output])
@@ -145,7 +145,7 @@ if not os.path.exists('output'):
 f = open('output/log.csv', 'w')
 log_writer = csv.writer(f)
 log_writer.writerow(['iteration', 'batch', 'batch_loss',
-                    'epoch_loss', 'elapsed_time'])
+                     'epoch_loss', 'elapsed_time'])
 
 checkpointer = ModelCheckpoint(
     "output/model.hdf5", monitor='main_out_loss', save_best_only=True)
@@ -171,9 +171,11 @@ for iteration in range(1, 100):
     print('Iteration', iteration)
 
     logger = BatchLossLogger()
-    # X_train, y_train = random_subset(X, y)
-    history = model.fit(X, [y, y], batch_size=batch_size,
+    X_train, y_train = random_subset(X, y)
+    history = model.fit(X_train, [y_train, y_train], batch_size=batch_size,
                         epochs=1, callbacks=[logger, checkpointer])
+    # history = model.fit(X, [y, y], batch_size=batch_size,
+    #                     epochs=1, callbacks=[logger, checkpointer])
     loss = str(history.history['main_out_loss'][-1]).replace(".", "_")
 
     f2 = open('output/iter-{:02}-{:.6}.txt'.format(iteration, loss), 'w')
@@ -209,4 +211,17 @@ for iteration in range(1, 100):
         f2.write(generated + '\n')
         print()
     f2.close()
+
+    # Write embeddings for current characters to file
+    # The second layer has the embeddings.
+
+    embedding_weights = model.layers[1].get_weights()[0]
+    f3 = open('output/char-embeddings.txt', 'w')
+    for char in char_indices:
+        if ord(char) < 128:
+            embed_vector = embedding_weights[char_indices[char], :]
+            f3.write(char + " " + " ".join(str(x)
+                                           for x in embed_vector) + "\n")
+    f3.close()
+
 f.close()
