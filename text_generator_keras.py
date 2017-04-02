@@ -24,7 +24,7 @@ use_pca = False
 lr = 0.001
 lr_decay = 1e-4
 maxlen = 40
-consume_less = 0   # 0 for cpu, 2 for gpu
+consume_less = 2   # 0 for cpu, 2 for gpu
 
 text = open('magic_cards.txt').read()
 print('corpus length:', len(text))
@@ -54,9 +54,9 @@ for i, sentence in enumerate(sentences):
     y[i, char_indices[next_chars[i]]] = 1
 
 
-# test code to sample on 1% for functional model testing
+# test code to sample on 10% for functional model testing
 
-def random_subset(X, y, p=0.01):
+def random_subset(X, y, p=0.1):
 
     idx = np.random.randint(X.shape[0], size=int(X.shape[0] * p))
     X = X[idx, :]
@@ -100,26 +100,25 @@ embedding_layer = Embedding(
 #     len(chars), embedding_dim, input_length=maxlen)
 embedded = embedding_layer(main_input)
 
-# RNN Layers
-rnn = LSTM(128, implementation=consume_less)(embedded)
-rnn = BatchNormalization(rnn)
+# RNN Layer
+rnn = LSTM(256, implementation=consume_less)(embedded)
 
 aux_output = Dense(len(chars))(rnn)
 aux_output = Activation('softmax', name='aux_out')(aux_output)
 
 # Hidden Layers
-hidden_1 = Dense(512, bias=False)(rnn)
+hidden_1 = Dense(512, use_bias=False)(rnn)
 hidden_1 = BatchNormalization()(hidden_1)
 hidden_1 = Activation('relu')(hidden_1)
 
-hidden_2 = Dense(256, bias=False)(hidden_1)
+hidden_2 = Dense(256, use_bias=False)(hidden_1)
 hidden_2 = BatchNormalization()(hidden_2)
 hidden_2 = Activation('relu')(hidden_2)
 
 main_output = Dense(len(chars))(hidden_2)
 main_output = Activation('softmax', name='main_out')(main_output)
 
-model = Model(input=main_input, output=[main_output, aux_output])
+model = Model(inputs=main_input, outputs=[main_output, aux_output])
 
 optimizer = Adam(lr=lr, decay=lr_decay)
 model.compile(loss='categorical_crossentropy',
@@ -165,17 +164,17 @@ class BatchLossLogger(Callback):
                                  round(time.time() - start_time, 2)])
 
 start_time = time.time()
-for iteration in range(1, 100):
+for iteration in range(1, 20):
     print()
     print('-' * 50)
     print('Iteration', iteration)
 
     logger = BatchLossLogger()
-    X_train, y_train = random_subset(X, y)
-    history = model.fit(X_train, [y_train, y_train], batch_size=batch_size,
-                        epochs=1, callbacks=[logger, checkpointer])
-    # history = model.fit(X, [y, y], batch_size=batch_size,
+    # X_train, y_train = random_subset(X, y)
+    # history = model.fit(X_train, [y_train, y_train], batch_size=batch_size,
     #                     epochs=1, callbacks=[logger, checkpointer])
+    history = model.fit(X, [y, y], batch_size=batch_size,
+                        epochs=1, callbacks=[logger, checkpointer])
     loss = str(history.history['main_out_loss'][-1]).replace(".", "_")
 
     f2 = open('output/iter-{:02}-{:.6}.txt'.format(iteration, loss), 'w')
