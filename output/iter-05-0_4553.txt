@@ -1,0 +1,45 @@
+----- diversity: 0.2
+----- Generating with seed: "inion${T}: Put a bounty counter on targe"
+---
+inion${T}: Put a bounty counter on target creature. It gains haste until end of turn. (It can't be blocked as long as defending player controls a Swamp.)|Whenever ~ attacks, it gets +1/+1 until end of turn.)|Whenever a creature you control attacks alone, it gets +1/+1 until end of turn.%^]
+[Sand of the Fall@{3}{U}#Creature — Human Wizard${T}: Add {C} to your mana pool.|{T}: Add {C} to your mana pool.|{T}: Add {G} or {W} to your mana pool.|{T}, Sacrifice ~: Destroy target creature and each player except them and put that card on top of your library.)%^]
+[Death of the Serra@{2}{R}#Sorcery$Create two 1/1 white Spirit creature tokens.%^]
+[Stone of the Serpent@{1}{U}#Instant$~ deals 4 damage to target creature or player.%^]
+[Serpent Consunce@{1}{G}#Sorcery$Create two 1/1 white Spirit creature tokens.%^]
+[Spinn the Angel@{2}{U}#Creature — Human Soldier$Flying|When ~ enters the battlefield, you may pay {1}{U}{U} and exile it with three time counters on it. At the beginning of your upkeep, remove a time counter from it. If you do, return ~ to its owner's hand.%^]
+[Stone of the Read@{2}{R}#Creature — Human Wizard${T}: Target creature gains flying until end of turn.%3^3]
+[Serra Servant@{1}{R}#Creature — Human Soldier$Flying|When ~
+----- diversity: 0.5
+----- Generating with seed: "inion${T}: Put a bounty counter on targe"
+---
+inion${T}: Put a bounty counter on target creature with power 4 or greater. Then ~ deals damage equal to its power to target creature or player.%2^2]
+[Mister of the Raven Avatar@#Vanguard$At the beginning of your upkeep, you may search your library for a basic land card and put it onto the battlefield. Then shuffle your library.%^]
+[Glimmetter@{2}{R}#Creature — Elemental$Flying|{2}{G}: ~ deals 1 damage to target creature or player.%^]
+[Sungle of the Fornger@{2}{R}#Creature — Human Shaman$Flying|At the beginning of your upkeep, if you control a Swamp, and deals 2 damage to target creature or player.%4^4]
+[Roal of the Wild@{1}{W}#Creature — Human Advisor$Whenever ~ deals combat damage to a player, it deals 1 damage to target creature or player.%^]
+[Orch of the Fireburge@{2}{U}#Instant$Target creature gains flying until end of turn. (It can't be blocked except by artifact creatures and/or creatures that share a color with it. Then create a colorless Equipment card from your hand on top of your library. If that player's library face up to snew target creatures.)%^]
+[Drake Zending@{3}{U}#Creature — Human Wizard$When ~ enters the battlefield, create a 1/1 colorless Myr artifact creature token with flying.%^]
+[Fallen of Shadows
+----- diversity: 1.0
+----- Generating with seed: "inion${T}: Put a bounty counter on targe"
+---
+inion${T}: Put a bounty counter on target green creature. It gains haste until end of turn. (Return any number of creatures you control creatures than.%0^0]
+[Stilled of the Ass@{2}{U}{U}#Creature — Human Knight$When ~ dies, you may cast it from your graveyard to your hand instead.)%^]
+[Aethen Sphinx@{W}#Instant$Creatures you control get +1/+0 until end of turn.%^]
+[Cloudget frencen, the Nomovail Emblem or Cler artifacts you control artifacts that say Forcest it gein.%^]
+[Reckle Venter@{2}{W}{B}#Creature — Human Artificer$Flying|Deathtouch|Whenever an opponent casts a white spell, if ~ is untapped.|At the beginning of your end step, you may puts the top card of his or her library. Then dosk that many cards from among them. Activate this ability only any time you could cast a sorcery card from among them and put it into your hand. If you remiane, then vete 1 life, then you gain 5 life.%^]
+[Auraturie@{3}{G}{G}#Sorcery$Put two creature cards from your graveyard to your hand.)%2^2]
+[Heavra Angel@{G}#Creature — Human Artificer$Kicker {2}{R} (You may cast this spell any time you could cast an instant.)|LEVEL 6 (The spell card you search your library for a red or gain counter removed to it.%^]
+[Fate the Comory@{4}{U}#Creature — 
+----- diversity: 1.2
+----- Generating with seed: "inion${T}: Put a bounty counter on targe"
+---
+inion${T}: Put a bounty counter on target land. Exile the top card of the card of your library.)%^]
+[Lathnen.%5^4]
+[Exiscatad@#Vanguard$You nours two +1/+1 counters on target target creature. It gains haste until end of turn.)|Investigane (You mois can onto exile damage. (You may cast it without paying its mana cost. It has haste.)%^]
+[Calace of Vigin@{6}#Artifact — Equipment$You may choose a spell that targets to target creature blocking this turn.%1^3]
+[Sky,yr Vehice@{W}#Instant$Destroy target land. If ~ whelk a, fadow upkeep of ~ white is 70. (When a creature leaves the battlefield, it gets +3/+X and gains trample until end of turn.|−3: Untap target artifact.%2^3]
+[Cursebrate Knight@{7}{G}#Creature — Kor Soldier$You cycling {2} ({2}, Discard this card: Draw a card.)%2^1]
+[Aether Mounting@{W}#Sorcery$Bushido 1 Giant creatures to ppaying its mana cost.)%1^1]
+[Sting@{2}{R}{R}#Creature — Snakush$Reach|At the beginning of each upkeep, if no spells werMycler cards in handwalk.)|~'s power is equal to the number of lands target spell or activate.%2^3]
+[Woilscape Wayfiebrer@{1}{R}{G}#Legendary Artifact Creature — Treefolk$Landfall — Whenever a land enters the battlefield, you may pay {1}{U}. If you do, shuffle your library age

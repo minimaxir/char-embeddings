@@ -1,0 +1,46 @@
+----- diversity: 0.2
+----- Generating with seed: "ntment$If damage would be dealt to you, "
+---
+ntment$If damage would be dealt to you, target player discards two cards.%^]
+[Serran of the Dead@{2}{G}#Creature — Elf Warrior$Whenever a creature you control deals damage to you and exile them. Then that player shuffles his or her library.%^]
+[Serent of the Dead@{2}{B}#Creature — Human Wizard${T}: Target creature gets +1/+1 until end of turn.%^]
+[Searth of Shadow@{2}{G}#Creature — Dragon$Flying|Whenever a creature you control deals damage to you and the rest on top of your library in any order.%^]
+[Sandrant Spirit@{3}{G}#Creature — Human Wizard${T}: ~ deals 1 damage to target creature or player.%^]
+[Conflice@{3}{U}#Instant$Target creature gets +1/+1 until end of turn.%^]
+[Cartive Stand@{2}{W}#Creature — Human Soldier${T}: ~ deals 1 damage to target creature or player.%^]
+[Serend Gring@{2}{U}#Creature — Human Soldier$Flying|Whenever a creature dies, you gain 2 life.%^]
+[Sentant of the Sanctuant@{2}{W}#Creature — Human Soldier${T}: ~ deals 2 damage to target creature or player.%^]
+[Spine of the Dead@{2}{W}#Creature — Human Soldier${1}{B}, {T}: Target creature gets +1/+1 until end of turn.%^]
+[Sanding Spinn@{2}{U}#Creature — Human Warrior$Flying|When ~ enters the battlefield, you may return target creature card from your g
+----- diversity: 0.5
+----- Generating with seed: "ntment$If damage would be dealt to you, "
+---
+ntment$If damage would be dealt to you, you may return target creature on the battlefield.%^]
+[Treeforce@{2}{G}#Creature — Elf Warrior$When ~ enters the battlefield, it deals 2 damage to target creature or player.%^]
+[Cather of Bands@{2}{W}{W}#Creature — Human Cleric${X}{W}, {T}: Target creature gets +1/+1 until end of turn.%2^2]
+[Viter of Screath@{3}{U}#Creature — Beast$Whenever an opponent casts a spell, you may return target creature card from your graveyard to your hand.%^]
+[Dealth of Monscloon@{1}{B}{B}#Creature — Spirit${2}{B}, Sacrifice ~: Destroy target artifact creature. It can't be regenerated.%^]
+[Saveneed Guardian@{3}{G}{G}#Creature — Eldrazi Drone$Devoid (This card has no color.)|Prevent all damage that would be dealt this turn.|• Search your library for a creature card and put them onto the battlefield. Then shuffle your library.%^]
+[Sentain Respent@{2}{G}#Creature — Human Warrior$Defender, first strike, vigilance, protection from black and has trample.%2^2]
+[Skinder@{3}{R}#Creature — Spirit${2}, {T}: Create three 1/1 white Soldier creature token.%^]
+[Arcage of Greep@{2}{G}{G}#Creature — Human Soldier${2}{G}, {T}, Sacrifice two Monispirecycloucle — Whenever you cast a spell, you may return target creature c
+----- diversity: 1.0
+----- Generating with seed: "ntment$If damage would be dealt to you, "
+---
+ntment$If damage would be dealt to you, target creature gains first strike until end of turn and permanents his or her namber.%^]
+[Heatness Golder@{G}{G}{G}#Creature — Crocodile$Flying|When another creature enters the battlefield, create a 1/1 black Spirit creature token with flying.||Evoke 10 (When you cast this spell, puts the top two cards of his or her library into his or her graveyard. If you do, ~ has menace. (Is you cast this spell, exile it as it resolves to the battlefield.%1^1]
+[Reboan Stompe@{3}{U}#Creature — Elemental$Skelity (If you cast this spell, exile cards from target player's graveyard.%^]
+[Penor the Venartance@{1}{B}{B}#Instant$Target creature gets +2/+2 until end of turn.|~'s power and toughness are each equal to the number of cards as the ento the battlefield.%3^3]
+[Warned Forcer@{4}{R}{R}{R}#Creature — Deltoque$Indestructible|~ deals X damage to each creature and each of mana spent to cast it.%^]
+[Quicking Satending@{3}{G}#Instant$Untap target card. If you don't, choose a number.%^]
+[Hunatering@{3}{W}{W}#Creature — Kor Spirit$Flying|Whenever a player is in retual type for any one coly.|Whenever a creature you control becomes blocked, it gets +1/+1 until end of turn.)%5^1]
+[Truben Greath@{1}{W}#Ench
+----- diversity: 1.2
+----- Generating with seed: "ntment$If damage would be dealt to you, "
+---
+ntment$If damage would be dealt to you, "Sacrifice it abilities commander.%2^4]
+[Blood Of War@#Vanguard$Buybanded creature attacks this turn, you gain X life. (Mevat land of each creature card at randomind. When you control no black, looks, return ~ from your graveyard to the battlefield under your control.|Flying%8^3]
+[Artiqua@{1}{W}{U}#Instant$~ deals X damage to target attacking this spell. It's still this artifact thib ability. You may destroy each target creature, its controller may shuffle your library.|• You gain 2 life. If " You wone among them into your graveyards, insteation creatures doesn't cause its controller.%6^6]
+[Nethleaver Each@{8}{G}#Enchantment$Creatures with morder, draw two cards. If you cast's he or she pays, puts the top X cards of his or her library into his or her graveyard, and put it into your hand. Then shuffle his or her graveyard to the battlefield.|Rable — Destroy {4} (At the beginning of your upkeep, choose X cards tother than ~, ~ deals combat damage to creature or player of theher 1 or more lands cards. (Each player sacrifices ave aP Warrior.%*^*]
+[Aethery Sfirctivivages@{3}{B}{R}#Creature — Beavaca$Islandwalk (This creature can't be the target of spells or abilities.)%3^2]
+[Faller of S

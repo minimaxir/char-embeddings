@@ -1,0 +1,51 @@
+----- diversity: 0.2
+----- Generating with seed: "3}{G}#Creature — Elf Druid${T}: Add X ma"
+---
+3}{G}#Creature — Elf Druid${T}: Add X mana in any combination of colors to his or her library.%^]
+[Seer of the Grave@{1}{R}#Enchantment — Aura$Enchant creature|Enchanted creature can't be blocked by artifact creatures.%^]
+[Death of the Wilds@{2}{W}#Enchantment — Aura$Enchant creature|Enchanted creature gets +1/+1 for each card in your hand.%^]
+[Spinning Stand@{2}{B}#Creature — Human Wizard${T}: Add {C} to your mana pool.%^]
+[Strength of the Wilds@{1}{W}#Enchantment — Aura$Enchant creature|Enchanted creature can't be blocked except by artifact creatures and/or creatures that share a color with it.)%^]
+[Serpent Shaman@{2}{W}#Creature — Human Soldier$Whenever ~ becomes blocked, you may destroy target nonblack creature.%^]
+[Rage of the Wilds@{2}{B}#Sorcery$Target player discards a card.%^]
+[Station Spirit@{2}{R}#Creature — Goblin Warrior$Whenever ~ blocks a creature or step, if you control a creature with power 4 or greater.%^]
+[Stone Spiker@{3}{W}#Creature — Human Soldier${T}: Target creature gains flying until end of turn.%^]
+[Seer of the Wild@{3}{W}#Creature — Human Cleric${T}: Target creature gets +2/+2 until end of turn.%^]
+[Stalking Stalker@{1}{U}#Creature — Human Wizard${T}: Target creature gains flying until end of t
+----- diversity: 0.5
+----- Generating with seed: "3}{G}#Creature — Elf Druid${T}: Add X ma"
+---
+3}{G}#Creature — Elf Druid${T}: Add X mana in any combination of colors to his or her library.%^]
+[Liliana Stand@{4}{B}{B}#Sorcery$Until end of turn, up to one target creature cards from the top.%^]
+[Dark Protector@{1}{U}#Creature — Human Wizard${T}: Target creature gets +1/+1 until end of turn."%^]
+[Final Contarch@{3}{G}#Creature — Construct$Sacrifice a Swamp: Target creature gains flying until end of turn.%^]
+[Spike Familiar@{4}{G}{G}#Creature — Elemental${U}: ~ gets +1/+1 until end of turn.%4^4]
+[Prophate Charge@{2}{B}#Enchantment — Aura$Enchant creature|Whenever enchanted creature blocks or becomes blocked by a creature, you may pay {X}. If you do, choose that player's choice and put them onto the battlefield tapped. Then shuffle your library.%^]
+[Crush of the Waste@{3}{U}#Creature — Human Spellshaper${R}: ~ gets +1/+0 until end of turn.%1^1]
+[Shadowbreaker Blast@{2}{R}{R}#Enchantment$Whenever you cast a spell that targets ~, put a +1/+1 counter on target creature.%^]
+[Grave Regent@{2}{G}#Sorcery$~ deals 4 damage divided as you choose among any number of target creatures with flying.%^]
+[Fatering Time@{4}{G}#Creature — Beast$~ can't be blocked by creatures with power 4 or greater.%^]
+[Magisherer's Cloak@{3}{R}{R}#Cre
+----- diversity: 1.0
+----- Generating with seed: "3}{G}#Creature — Elf Druid${T}: Add X ma"
+---
+3}{G}#Creature — Elf Druid${T}: Add X mana in any combination of colors to him or her graveyard. (They can't be the target of spells or abilities.)%^]
+[Teferi's Avatar@#Vanguard$At the beginning of your upkeep, remove a depletion counter from ~.%3^2]
+[Carling Rika@{2}{G}#Sorcery$Reveal the top five cards of your library. Put the exiled cards on the bottom of your library in any order.%^]
+[Ulkint Merfliction@{6}{R}{R}{R}#Creature — Elemental$Whenever ~ or another Bird enters the battlefield under your control, you may tap or untap target artifact, create a 5/5 green${3}{G}: ~ gets +1/+1 until end of turn.%^]
+[Contoryal Hope@{2}{R}{R}#Creature — Minotaur Druid${T}: Choose a color. You may spend mana as though it were mana of the card exiled this way.%^]
+[Amra Masity@{3}{W}{W}#Legendary Creature — Human Wizard$Whenever you cast an instant or sorcery spell from your deck and astel this arme.%^]
+[Mishnation@{R}#Instant$Destroy target creature. It can't be regenerated.%2^1]
+[Quick Captain@{3}{R}#Enchantment — Aura$Enchant nonbasic land|At the beginning of each player's upkeep, where X is the number of lands he or she controls in the first.|~ enters the battlefield tapped.|{T}: Add this number hadd from any number of target cre
+----- diversity: 1.2
+----- Generating with seed: "3}{G}#Creature — Elf Druid${T}: Add X ma"
+---
+3}{G}#Creature — Elf Druid${T}: Add X mana in any combination of colors to his or her hand.%6^6]
+[Infixtal the Mourn@{5}#Tribal Splits and Soldier$Haste|{T}: Return ~ to its owner's hand at the beginning of his or her less that may player puts three +1/+1 counters on ~ and transumble upkeep spells with a -1/-1 counter on it.%2^2]
+[Yodonium Magethalt@{3}{R}#Creature — Human Monk$Whenever another creature enters the battlefield under your control, untap target player controls. Exile ~.%3^1]
+[Cult Retal@{1}{U}#Creature — Lizard$Improvise (Your artifacts can help cast this spell. Each artifact you tap after you're done total phases out. (Each clashing player reveals no ponesion counters.%^]
+[Scraped Fuupa@{W}#Enchantment — Aura Curse$Enchant her no cards in hand, put it onto the battlefield tapped, then shuffle your library.%2^2]
+[Spell Stalker@{3}#Artifact: Add one mana of any color to your mana pool.|{X}, {T}: Target creature can't block this turn.%3^3]
+[Abbasim Giant@{B}#Creature — Horror$~ gets +1/+1 as long as seven or more cards are in your graveyard, untapped lands.%3^1]
+[Fire with Guide@{4}#Artifact$At end of combat: Prevent all damage that would be dealt to target creature or the token from one.%1^3]
+[Flade Crawler@

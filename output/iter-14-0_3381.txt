@@ -1,0 +1,46 @@
+----- diversity: 0.2
+----- Generating with seed: "where X is the total power of the creatu"
+---
+where X is the total power of the creatures he or she controls.%^]
+[Stone Strike@{2}{U}#Instant$Counter target spell. You may play that card from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom of your library in any order.%^]
+[Stone Sergent@{1}{W}#Enchantment$At the beginning of your upkeep, return a creature you control to its owner's hand.%^]
+[Grave of the Golder@{2}{B}#Creature — Human Wizard${T}: Target creature gets +1/+1 and gains trample until end of turn.%^]
+[Standing Touch@{1}{W}#Enchantment$At the beginning of your upkeep, you may put a charge counter on ~.|{T}, Remove a +1/+1 counter from ~: Put a +1/+1 counter on ~.%2^2]
+[Shield of the Wilds@{1}{W}#Enchantment$At the beginning of your upkeep, you may put a charge counter on ~.|{T}, Remove a +1/+1 counter from ~: Put a -1/-1 counter on target creature.%^]
+[Stone Strike@{3}{U}#Enchantment$At the beginning of your upkeep, you may put a charge counter on ~.|{T}, Remove a +1/+1 counter from ~: Put a +1/+1 counter on target creature.%^]
+[Stone Shaman@{2}{U}#Creature — Human Wizard${T}: Add {C} to your mana pool.|{T}: Add {G} or {U} to your mana pool.%^]
+[Temple
+----- diversity: 0.5
+----- Generating with seed: "where X is the total power of the creatu"
+---
+where X is the total power of the creatures he or she controls that player controls no control of ~ and ~ deals 1 damage to that creature's controller.%^]
+[Viashino Shrine@{2}{U}#Enchantment$At the beginning of each player's upkeep, ~ deals 1 damage to that player unless he or she sacrifices a creature this way, then puts that card on the top or bottom. A player wins if his or her card had a higher converted mana cost.)%^]
+[Sigil Salvocation@{4}{G}#Creature — Spider$Reach|{T}: Add {B} or {R} to your mana pool.%^]
+[Reaper of Squirth@{1}{U}#Enchantment — Aura$Enchant creature|Enchanted creature has "{T}: Target creature gets +3/+3 until end of turn.%^]
+[Blinder of the Pass@{3}{W}#Instant$Destroy target nonblack creature.%^]
+[Mistfoot Snare@{1}{U}#Enchantment — Aura$Enchant creature|Enchanted creature can't be blocked by artifact creatures.|Each opponent may pay any amount of life.%^]
+[Tempestone Elite@{1}{W}#Creature — Human Soldier$Flying|~ gets +1/+1 as long as a source you control is dealt to another target creature or player.%^]
+[Daak Nightwinger@{2}#Artifact${3}, {T}: Exile target creature card from a graveyard. If you do, return ~ from your graveyard to your hand.%^]
+[Skyshroud Sancation@{3}{U}#Enchantment$Whenever a
+----- diversity: 1.0
+----- Generating with seed: "where X is the total power of the creatu"
+---
+where X is the total power of the creatures you control.%2^3]
+[Highsing Jolstibitier@{1}{G}#Creature — Shapeshifter$Changeling (This card is every creature type.)|{1}{W}: Target blue creature gets +2/+4 until end of turn.%^]
+[Summinger Nim@{B}{B}#Sorcery$Destroy target creature that player controls. That creature can't block this turn if able.%^]
+[Abystone@{3}#Artifact${4}, {T}: Exile target artifact or enchantment and exile that creature. It becomes a land you control with a +1/+1 counter on it.)%2^2]
+[Darksteel Stading@{1}{U}#Sorcery$Target opponent reveals the top card of his or her library, then puts that card on the top or bottom. A player wins if his or her card had a higher converted mana cost.)%^]
+[Umis Gatewalker@{W}#Creature — Human Wizard$Each attacking creature gets +2/+1 and has first strike.|Whenever ~ deals combat damage to a player, create a 1/1 green Saproling creature token.|{1}{B}, {T}, Discard a card: Each player loses 1 life and you gain 1 life.%3^1]
+[Druidsceed Staffs@{B}#Enchantment$As ~ enters the battlefield, choose a color.|{W}, Sacrifice ~: ~ deals 1 damage to target opponent.|• You gain 1 life.%^]
+[Living Power@{3}#Artifact${4}, {T}: Untap target nonartifact, nonblack creature you control, put
+----- diversity: 1.2
+----- Generating with seed: "where X is the total power of the creatu"
+---
+where X is the total power of the creature put into a black. (The same deals damage to defending player or planeswalker.)%3^4]
+[Gemfirtclave@{4}{U}#Enchantment$Whenever a 5/5]white of Gold to players in and graveyard.%2^1]
+[Daon Ezemnanter@{3}{B}#Creature — Human Monk$You may have ~ enter the battlefield as a copy of any 1 life you control.)%6^6]
+[Radnom Abophock@{2}{W}{W}#Creature — Sliver$Flying|At the beginning of each opponent's upkeep, if that player has turn, or Island cards from your graveyard to the battlefield tapped unless this creature from your graveyard to the battlefield.%2^2]
+[Kyrra, Ghost Watch@{1}{W}#Legendary Creature — Human Cleric$Infect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)|{B}: Regenerate each nonlented permanent without flying.%5^5]
+[Nitheni, Vollism@{1}{R}{R}#Legendary Creature — Elemental Shaman$Awneach (This creature can block creatures with flying.)%2^4]
+[Worldervantor@{2}{U}#Creature — Thrull$Impripp—Sacrifice (This creature can't be blocked except by creatures with flying or reach.)|Ghose — If you have shroud before you or morevent that you discard.|Draw a card at the beginning of the next turn's upkeep.%^]
+[Frin

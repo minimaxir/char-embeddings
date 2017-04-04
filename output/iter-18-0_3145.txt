@@ -1,0 +1,45 @@
+----- diversity: 0.2
+----- Generating with seed: "t be blocked as long as defending player"
+---
+t be blocked as long as defending player controls a Swamp.)|When ~ enters the battlefield, draw a card.|Whenever you cast a multicolored spell, you may pay {1}. If you do, you gain 1 life.%^]
+[Stone Strike@{1}{U}#Instant$Counter target spell unless its controller pays {1}.%^]
+[Strength of the Fallen@{2}{R}#Creature — Human Shaman$Whenever an opponent casts a spell, that player loses 1 life.%^]
+[Shambling Griffin@{3}{W}#Creature — Human Soldier$When ~ enters the battlefield, if it was kicked, it enters the battlefield with a +1/+1 counter on it for each time it was kicked.%^]
+[Staffing Marshal@{2}{G}#Creature — Elf Shaman${T}: Add {G} to your mana pool.%^]
+[Spine Candit@{1}{W}#Creature — Human Soldier$When ~ enters the battlefield, you may search your library for a card, then discard a card.%^]
+[Staffict Conscale@{2}{W}#Creature — Human Cleric${T}: Target creature gets +1/+1 until end of turn.)|Whenever you cast a creature spell, you may pay {1}. If you do, you gain 1 life.%^]
+[Chaosland Boon@{2}{W}#Instant$Destroy target artifact or enchantment.|• Target creature gets +1/+1 until end of turn.)|Whenever ~ deals combat damage to a player, you may return target creature card from your graveyard to your hand.%^]
+[Stone Strik
+----- diversity: 0.5
+----- Generating with seed: "t be blocked as long as defending player"
+---
+t be blocked as long as defending player controls a Forest.)%4^4]
+[Thunderhall War Salva@{2}{W}#Creature — Human Soldier$When ~ enters the battlefield, target opponent reveals his or her hand. You choose a card from it. That player discards that card.%^]
+[Starker's Sentinels@{U}#Creature — Human Wizard${T}: ~ deals 1 damage to target creature or player.|−8: You gain 1 life.%^]
+[Crypting Bog@{3}#Artifact${T}: Add {C} to your mana pool.|{1}, {T}: Draw a card.%^]
+[Sunch of the Fail@{2}{B}#Sorcery$Target opponent reveals his or her hand. You choose a card from it. That player discards that card. Activate this ability only during your turn.|Chroma — When ~ enters the battlefield, you may pay 2 life. If you do, return ~ from your graveyard to the battlefield under your control.%^]
+[Temporal Serva@{1}{W}#Creature — Human Soldier$Whenever ~ deals combat damage to a player, you may pay {1}. If you do, you gain 1 life.%^]
+[Death of the Beyond@{3}{W}{W}#Enchantment$At the beginning of your upkeep, if you control an Island, and from white.|Whenever you cast a creature spell, you may exile target artifact or enchantment.|• Return target creature to its owner's hand.%^]
+[Stone Marshal@{3}{G}{G}#Creature — Wurm$Trample|At the beginning
+----- diversity: 1.0
+----- Generating with seed: "t be blocked as long as defending player"
+---
+t be blocked as long as defending player controls a Swamp, and deals 2 damage to that creature, or land creature. (This effect lasts indefinitely.)%^]
+[Veteran Icolosionary@{1}{B}{B}#Sorcery$Target opponent puts the top X cards of his or her library into his or her graveyard.%1^1]
+[Windking Griffin@{2}{G}{W}#Legendary Creature — Goblin Scout$Trample|When ~ enters the battlefield, if it was kicked, sacrifice it, not creatures get +1/+1.|Land (This creature can't be blocked by creatures with go+shore canartting another creature.%7^4]
+[Skywardboar@{3}{G}#Legendary Equipment$If a source would deal damage to you this turn, prevent that damage.%^]
+[Crusenal Fuggs@{3}{R}#Creature — Dragon$Flying, haste%2^2]
+[Nestatic Capter@{1}{U}#Creature — Faerie$Flying|Exalted (Whenever a creature defending player controls untap and block it.|WheYu — Whenever ~ deals combat damage to a player, you may return target ~ to your hand. If it doesn't destroy it. (Damage dealt by the other creatures you control.%1^1]
+[Food Rats@{U}{U}#Creature — Human Wizard$At the beginning of the end step, if there are four or more red creatures, it gains double strike until end of turn.%1^1]
+[Wildfire@{2}{G}#Sorcery$Destroy target creature if it has the life or 
+----- diversity: 1.2
+----- Generating with seed: "t be blocked as long as defending player"
+---
+t be blocked as long as defending player controls a Wolf or greater artifact creature enters the battlefield under your control, ~ to target creature or player.%3^2]
+[My Heyropholf@{4}{U}#Enchantment${1}{R}: Tap target creature.%4^3]
+[Shben Behalcharder@{3}#Artifact Creature — Bird$Flying, vigilance%1^1]
+[Hissa's Nay@{1}{W}#Instant$Untap target permanent you control.%2^2]
+[Ron-O Draker@{3}{R}{G}#Creature — Faerie$Flash|Devour 4 (As this enters the battlefield, remove all fight counters on them.|Cycling {2}{B} ({1}{U}: Put a level counter on this. Level up only as a sorcery.)|Each player sacrifices all artifact named ~. (Starting with you've basic, you may choose not to untap ~ during your untap step.|{T}: Return target Human you control to its owner's hand.%2^3]
+[Botrophort Couric@{2}{G}#Sorcery$Bolster X, or one of the target attacking creatures.%^]
+[Swee-Pucked Sage@{1}{R}#Creature — Goblin Shaman$Whenever you cast a spell or Scaven or Arcane ~.|You have indestructible. (As you cast this spell, exile cards from the top of your library until you reveal an artifact, creature, or land card, then reveal damage to you and from black.|−4: Counter target player discards a card.%2^1]
+[Skirming Cont@#Land$~ enters the battlefie

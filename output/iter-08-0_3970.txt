@@ -1,0 +1,51 @@
+----- diversity: 0.2
+----- Generating with seed: "reature deals combat damage to a player,"
+---
+reature deals combat damage to a player, you may pay {1}. If you do, create a 1/1 colorless Servo artifact creature token.%^]
+[Spire of the Wilds@{2}{B}#Sorcery$Target player discards a card.%^]
+[Sentai Shaman@{2}{R}#Creature — Human Wizard${T}: Add {W} to your mana pool.%^]
+[Stating Shadow@{2}{B}#Sorcery$Target player discards a card.%^]
+[Staffing Star@{1}{W}#Creature — Human Cleric${T}: Target creature gains flying until end of turn.%^]
+[Starka, the Graveker@{3}{W}{W}#Legendary Creature — Human Soldier$Whenever ~ becomes blocked, you may pay {2}{B} and exile it with three time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)%^]
+[Serra Sentinel@{1}{W}#Creature — Human Soldier$When ~ enters the battlefield, you get {E}{E} (two energy counters).|{T}: Add {C} to your mana pool.%^]
+[Spine of the Faller@{2}{R}#Creature — Human Wizard${T}: Add {C} to your mana pool.%^]
+[Starking Mage@{1}{G}#Instant$Target creature gets +1/+1 until end of turn.)|{1}{B}: Regenerate ~.%1^1]
+[Blood of the War Assassin@{1}{B}#Creature — Zombie Wizard$Flying|When ~ enters the battlefield, it deals 3 damage to target creature or player.%^]
+[Stread Spirit@{1}{W}#C
+----- diversity: 0.5
+----- Generating with seed: "reature deals combat damage to a player,"
+---
+reature deals combat damage to a player, you may search your library for a land card, reveal it, and put it into your hand. If you do, return ~ to its owner's hand.%^]
+[Streel of the Rire@{4}{G}{G}#Creature — Goblin Wizard$Flying|When ~ enters the battlefield, you get {E}{E} (two energy counters).|{T}: Add {C} to your mana pool.%^]
+[Flated Netalis@{W}#Instant$Destroy target creature. It can't be regenerated.%^]
+[Search of the Warrior@{5}{R}#Creature — Goblin Warrior$When ~ enters the battlefield, if you control a creature named ~ to its owner's hand.%^]
+[Archant of the Dead@{2}{G}#Creature — Human Wizard${T}: Target creature you control gains flying until end of turn.%1^1]
+[Soul of the Horde@{2}{B}#Instant$Destroy target creature. You gain life equal to that creature's toughness.%^]
+[Stread of Serpent@{1}{W}#Creature — Human Cleric$When ~ enters the battlefield, you gain X life.|{1}{R}, {T}: Target creature gains first strike until end of turn.%2^2]
+[Karch of the False@{1}{W}#Enchantment$Whenever a creature attacks and isn't blocked, you get at least power and toughness are each equal to the number of creatures on the battlefield this turn.%^]
+[Retural Selection@{2}{W}{W}#Sorcery$Target player loses 1 life and you gain 1
+----- diversity: 1.0
+----- Generating with seed: "reature deals combat damage to a player,"
+---
+reature deals combat damage to a player, that player discards a card.|When ~ enters the battlefield, create a 4/4 colorless Mountain and source to the top.%^]
+[Tahnie Restration@{B}#Instant$You gain 1 life for each basic land.%^]
+[Arisolyor Baulty@{4}{U}#Sorcery$Destroy all Slivers in addition to achose or blocking artifact entere the battlefield tapped.%3^7]
+[Artal Cornandify@{3}{W}{W}#Creature — Human Wizard Rebel Shaman${2}{C}: Target opponent exiles X power 1 or greater.%^]
+[Harvestblegmarling@{0}#Artifact Creature — Bird$Flying, haste|As long as ~ is exalted, sacrifice ~.%5^6]
+[Marter of SAugus@{3}{B}#Creature — Demin Knight$When ~ enters the battlefield, draw a card."%1^2]
+[Transquall Breat@{8}#Creature — Human Wizard$Reach (This creature can block creatures with flying.)|When ~ enters the battlefield, it deals 3 damage to each creature and each player.%2^1]
+[Japhariza Chimeria@#Land$~ enters the battlefield tapped with two charge counters on it.|At the beginning of the upkeep of enchanted artifacts dies, choose a land.%2^2]
+[Leons of Bear@{1}{U}{U}#Instant$Destroy target artifact."%^]
+[Savaga Flaze@{1}{B}#Creature — Zombie${4}{R}: Create a 1/1 green Anter-Foreed creature token.%2^1]
+[Mag Froke@{W}#Creature — Spect
+----- diversity: 1.2
+----- Generating with seed: "reature deals combat damage to a player,"
+---
+reature deals combat damage to a player, you draw a card.%1^3]
+[Silwraze, Fatanger@{6}{G}#Legendary Creature — Zombie Horror$Hexproof (This creature can't be blocked except by artifact {1} creatures you control get +2/+1.|{4}: ~ gains vight and islands you control of each creature or spell you control, that artifact becomes a Swamp, ~ gets +0/+1 until end of turn.%1^3]
+[Drakhor Munacrower@{2}{R}{R}#Creature — Giant Rogue$Haste|Whenever ~ attacks, it gets -2/-2 until end of turn. If a creature named ~, it enters the battlefield attached to that creature, then destroy them.%^]
+[Argnetem Magen@{3}{U}{U}#Creature — Goblin Warrior${B}, {T}{Igrattraad ability for as long as it deals 1 damage to this Aura and can't be blocked except by artifact creatures and/or black creatures.)%^]
+[Tequitified Hasse@{2}{W}#Sorcery$Exile any number of target artifact for each more counter. (Shat tour play antw other colors of your choice until end of turn.%1^2]
+[Selve Bountidy@{3}{U}{B}#Sorcery — Arcane$Target creature gains haste until end of turn until end of turn. If that player does, ~ deals 3 damage to him or her.%^]
+[Couted Knith@{5}{B}{R}{B}#World Enchantment$Each player shuffles it, remove it an't blocking creature is enchanted.%^]
+[Abo

@@ -1,0 +1,46 @@
+----- diversity: 0.2
+----- Generating with seed: "to your mana pool.%^]
+[Obelisk of Naya@{"
+---
+to your mana pool.%^]
+[Obelisk of Naya@{2}{B}{B}#Creature — Human Soldier$Whenever ~ attacks, it gets +1/+1 until end of turn.%^]
+[Stone Field@{3}{G}#Creature — Elemental$Flying|{1}{U}{U}: ~ gets +1/+1 until end of turn.%^]
+[Storm Construction@{2}{W}{W}#Instant$Target creature gets +1/+1 until end of turn.%^]
+[Standing Strike@{2}{W}{W}#Creature — Human Soldier${T}: Target creature gets +1/+1 until end of turn.%^]
+[Stone Spirit@{2}{G}{G}#Creature — Human Wizard${T}: Target creature gets +1/+1 until end of turn.%^]
+[Spirite Stalker@{2}{U}#Creature — Human Soldier$Whenever ~ attacks, it gets +2/+2 until end of turn.%^]
+[Stone of Striker@{2}{R}#Creature — Elemental$Flying|Whenever ~ blocks or becomes blocked by a creature, you may pay {1}. If you do, put a +1/+1 counter on it.)|Whenever ~ attacks, it gets +1/+0 until end of turn. (It can't be blocked except by creatures with flying or reach.)|Whenever ~ attacks, it gets +1/+1 until end of turn.%^]
+[Stone Skind@{1}{U}{U}#Creature — Human Soldier$Flying|Whenever ~ attacks, it gets +1/+1 until end of turn.%^]
+[Skyshi Skinds@{2}{G}{G}#Creature — Human Soldier$Whenever ~ attacks, it gets +1/+1 until end of turn.%^]
+[Sanding Strike@{2}{W}{W}#Creature — Human Soldier$Whenever ~ att
+----- diversity: 0.5
+----- Generating with seed: "to your mana pool.%^]
+[Obelisk of Naya@{"
+---
+to your mana pool.%^]
+[Obelisk of Naya@{2}{U}{U}#Instant$Target creature gets -1/-1 until end of turn. (It can block creatures you control get +1/+1 until end of turn. ({C} replesed for each of you control a Swamp.)|Whenever ~ attacks, it gets +1/+1 until end of turn.%^]
+[Umbrate of Skyring Storm@{2}{W}{W}#Creature — Human Wizard${T}, Sacrifice ~: Destroy target creature. It can't be regenerated. It can't be regenerated, it deals to a creature you control to its owner's hand.%^]
+[Seenal Tomer@{1}{G}{G}#Sorcery$Counter target spell.%^]
+[Boother Grave@{2}{W}{U}#Creature — Human Shaman${T}: Target creature gains flying until end of turn.%1^1]
+[Infall of the Prager@{2}{U}{U}#Creature — Human Wizard${T}: ~ deals 2 damage to target creature or player. It daals that much damage to that creature's toughness.%^]
+[Clace of the Wand@{2}{G}#Creature — Elemental$If a source of your choice would die, each other creature gets -2/-2 until end of turn. (It can't be blocked except by the creatures.)|When ~ enters the battlefield, you may return ~ to its owner's hand.|{T}: Prevent all damage that would be dealt to ~ this turn.%^]
+[Stant of Roos@{4}{W}{W}{W}#Creature — Human Soldier$Whenever ~ blocks or becomes blocked, it gets +2/+0 until 
+----- diversity: 1.0
+----- Generating with seed: "to your mana pool.%^]
+[Obelisk of Naya@{"
+---
+to your mana pool.%^]
+[Obelisk of Naya@{3}{U}#Enchantment$Whenever you cast a green spell, you may put a land card from your graveyard for its flashback cost. You may return ~ to its owner's hand. If ~ is tapped, put taken +1/+1 counters on it for each creature and shroud. (It can't be blocked except by attacked a creature card from any revealed card, you gain life equal to the number of Arcares in addition to the battlefield. You lose 2 life for each ofn't target creature's toughness. You may tap target Asling with ~ is vo grevented and onto or black, then discardy that card. (Damage is counter peals for its mana cost, then that player may pay {U} and/or opponents loses 2 life.|Morpling, and lifelink|Enchant creature can't block as long as in a land you control. Whenever a land attacks this turn, that card gains haste. Eech of manices a nonland card, put it into your hand. Put that may discard card in addition card. If you don't, that creature attacks alone four untapped, you gain life equal to the highest color.)%^]
+[Phyrefoul Fadinste@{2}{B/B}#Instant$Exile ~ islandwalker you control this turn.|{W}{U}: ~ gets +2/+0 until end of turn. Untap ~ to it. At the beginning of the laver's er exiled by you controls, Devoin a cr
+----- diversity: 1.2
+----- Generating with seed: "to your mana pool.%^]
+[Obelisk of Naya@{"
+---
+to your mana pool.%^]
+[Obelisk of Naya@{R}#Enchantment$Tap damage creature enters the battlefield, ~ deaze the maan cost of target creature.%5^5]
+[Phink Orker@{4}{G}{G}#Creature — Elemental$Haste%1^6]
+[Drutius Ovger Warr@#Vangera$Whenever a player daples, then n[Werier Makestion creature suseld unless you pay its {1} more to cast ~, draw three +1/+1 counters on it, then shuffle hime instant or sorcery cards all black, the land cards in mana xore.%5^4]
+[Skirk Veturn@{3}{U}{U}#Creaturu — Illusion$Flying|Creatures you control have dealt to that creature.%^]
+[Suman Elementoke@{5}#Artifact$Whenper each creature enters the battlefield, svip thve mana cost.)|Elder creatures another creature card is creatures those total becomes.)%3^3]
+[Yae Dreala, the Magher@#Plane —the Conkers Regulading to .Whenever you cause this spell ~, create a 3/3 bland Recompler creature tokens. Wheynerver you rave and/or blocks this creature.%^]
+[Marecrod Ada'seboght@{3}{G}{G}#Enchantment${U}, {U}, Sacrif{5}{R/P}{U} ({Y}: Put the chosen or both of your library instead. (They can't be creature attacks.|Equip {2} ({2}: Attach to target attacking creature. Wield gets -2/-3 counters and from you-1 Than each tyched afte the exiled this way. If you do, each 

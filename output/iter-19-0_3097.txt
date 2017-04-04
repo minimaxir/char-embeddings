@@ -1,0 +1,45 @@
+----- diversity: 0.2
+----- Generating with seed: "nal cost to cast ~, sacrifice a land.|Se"
+---
+nal cost to cast ~, sacrifice a land.|Search your library for a card, then discard a card.%^]
+[Secret of the Wild@{1}{W}#Creature — Human Soldier$When ~ enters the battlefield, create a 1/1 green Saproling creature token.%^]
+[Starking Minotaur@{2}{R}#Creature — Goblin$When ~ enters the battlefield, you may search your library for a card named ~ in all graveyards.%^]
+[Starking Stalker@{1}{G}#Creature — Elf Warrior$Whenever ~ becomes blocked, you may draw a card.%^]
+[Stone Spirit@{2}{R}#Creature — Goblin Shaman$When ~ enters the battlefield, you may search your library for a card named ~ in all graveyards.%^]
+[Searing Stand@{3}{B}#Creature — Spirit${W}, Sacrifice ~: Draw a card.%^]
+[Stone Spirit@{1}{W}#Creature — Human Soldier$When ~ enters the battlefield, you may search your library for a card named ~, reveal it, and put it into your hand. Then shuffle your library.%^]
+[Stone Spirit@{1}{W}#Creature — Human Soldier$Whenever ~ attacks, you may pay {E}{E}. If you do, put a +1/+1 counter on ~.%3^3]
+[Staffing Market@{3}{W}#Creature — Human Soldier$First strike|At the beginning of your upkeep, sacrifice ~ unless you pay {G}.|Whenever a creature you control deals damage to you and double the number of +1/+1 counters on ~ and a 
+----- diversity: 0.5
+----- Generating with seed: "nal cost to cast ~, sacrifice a land.|Se"
+---
+nal cost to cast ~, sacrifice a land.|Search your library for a card named ~ in all graveyards.%^]
+[Aether Call@{2}{B}#Instant$Target creature gets +1/+1 until end of turn.%^]
+[Spinning Spirit@{2}{W}#Creature — Human Soldier$Whenever ~ becomes blocked, you may pay {R}. If you do, you may cast the copy without paying its mana cost.%^]
+[The Infernity@{W}{U}#Planeswalker — Dragon$Flying|When ~ enters the battlefield, if it was kicked, you may have that player put a card from your hand. If you don't, ~ enters the battlefield tapped.%^]
+[Mana Stone@{3}#Artifact${T}: Add {W} or {B} to your mana pool.|{2}{W}{W}: ~ becomes a 4/4 green and white Elemental creature token with "{B}: Regenerate ~."%^]
+[Elvish Conscriplack@{3}{G}{G}#Creature — Cat$When ~ enters the battlefield, destroy target enchantment.|• Target creature gets -2/-2 until end of turn.%^]
+[Tremsold Elemental@{1}{W}#Creature — Human Soldier$When ~ enters the battlefield, you may search your library for a creature card with converted mana cost 3 or less from your graveyard to your hand.)%6^6]
+[Glacific Consuma@{4}{G}#Creature — Spirit${R}: ~ gets +1/+0 until end of turn.%2^2]
+[Tricket Shaman@{1}{R}{R}#Creature — Orc Warrior$Whenever ~ deals combat damage to a player, c
+----- diversity: 1.0
+----- Generating with seed: "nal cost to cast ~, sacrifice a land.|Se"
+---
+nal cost to cast ~, sacrifice a land.|Search your library for a creature card and put it onto the battlefield under its owner's control. If you do, draw a card for each Plains you control.|Draw a card.%^]
+[Defeater New-Magem@{4}#Artifact Creature — Gargoyle$Flying%1^1]
+[Test Pacl@{3}{W}#Sorcery$~ deals 3 damage to target creature with flying.%1^2]
+[Necret Changeling@{1}{G}#Instant$Put a verse counter on ~.|Remove three spore counters from ~: Create a 1/1 black Angel creature token. If you do, return this card from your graveyard to the battlefield.%1^3]
+[Mind Scapher@{2}{W}#Creature — Cat Warrior$Haste (This creature can attack and {T} as soon as it comes under your control.)|~ attacks each turn if able.|When Mortien Warrior or a Clard, put a +1/+1 counter on ~.%0^1]
+[Takehold Messearers@{1}{U}#Creature — Spirit$Flying, first strike, instant, land, or and sources, that card.|At the beginning of each upkeep, if a player cast two or more spells last turn, transform ~.%5^8]
+[Long-Tourn Hounds@#Land${T}: Add {C} to your mana pool.|{4}, {T}: Put a flement you control on top of its owner's library.%^]
+[Burstike@{4}{W}#Instant — Arcane$Target creature gets -2/-2 until end of turn for each of them. If it's a land card, put that 
+----- diversity: 1.2
+----- Generating with seed: "nal cost to cast ~, sacrifice a land.|Se"
+---
+nal cost to cast ~, sacrifice a land.|Search your library for two cards, you may draw a card.|{R}{W}, Sacrifice a red your. %^]
+[Morture@{2}{R}#Creature — Djinn$Trample, horsemanship (This creature can't be blocked except by Walls three untapped.|Fleser|Khile you control an Island until ~ leaves oup pays this turn, prevent that damage. Reveal card from your hand, then discards three cards.%^]
+[Ignitatormast Reach@{1}{R}#Creature — Kithkin Soldier$Vigilance (Attacking doesn't cause this creature to tap.)%3^3]
+[Vuildbegandsis@{3}{W/U}#Enchantment — Aura$Enchant creature|Instant another creature, enchantment, you divide that creature's combat damage, not its controller, among any of the creatures it's being blocked by or is blocking.)%^]
+[Layos Singuard@{2}{R}#Creature — Human Horror$Trample (This creature can deal excess combat damage to defending player or planeswalker while attacking.)|{U}: ~ gains indestructible until end of turn. (A creature dealt damage by ~ this turn dies to another target creature or player.' Tap two untapped lands.|Draw a card.%^]
+[Shallhare@{3}{B}#Enchantment$Skip your upkeep, zon a— only one mana of any color to your mana pool.%^]
+[Seless Lire@{3}{U}{U}#Sorcery$Strive — ~ costs {1}{B} more to cas

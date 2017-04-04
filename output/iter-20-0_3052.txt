@@ -1,0 +1,44 @@
+----- diversity: 0.2
+----- Generating with seed: "st to cast ~, sacrifice a creature.|Sear"
+---
+st to cast ~, sacrifice a creature.|Search your library for a card with the same converted mana cost as this card, reveal it, and put it into your hand. Then shuffle your library.%^]
+[Stone Servant@{3}{R}#Creature — Goblin Shaman$When ~ enters the battlefield, target creature gets +1/+1 until end of turn.)%3^3]
+[Seeker of the Wall@{2}{B}#Creature — Zombie Warrior$Whenever ~ attacks, it gets +1/+1 until end of turn.)|{1}{B}: Regenerate ~.%1^1]
+[Seeker of the War Dead@{4}{B}#Creature — Human Wizard${T}: ~ deals 1 damage to target creature or player.%^]
+[Death of the Wall@{3}{R}#Creature — Goblin Shaman$When ~ enters the battlefield, you may search your library for a basic land card, reveal it, and put it into your hand. If you set an land, you gain 2 life.%^]
+[Cryptic Servant@{1}{W}#Creature — Human Cleric$When ~ enters the battlefield, you may search your library for a basic land card, reveal it, and put it into your hand. If you do, shuffle your library.%^]
+[Shambling Stalker@{1}{R}#Creature — Human Warrior$Haste|~ enters the battlefield with X +1/+1 counters on it, where X is the number of cards in your hand.%^]
+[Seek Shock@{2}{B}#Enchantment — Aura$Enchant creature|Enchanted creature gets +1/+1 and has first strike.|Wh
+----- diversity: 0.5
+----- Generating with seed: "st to cast ~, sacrifice a creature.|Sear"
+---
+st to cast ~, sacrifice a creature.|Search your library for up to two basic land cards, put them onto the battlefield tapped. Otherwise, put the top three cards of your library into your graveyard.%^]
+[Raging Wind@{2}{R}#Enchantment — Aura$Enchant creature|Enchanted creature gets +1/+1 and has first strike.%^]
+[Renewood Keep@{2}{B}#Creature — Zombie Cleric$When ~ enters the battlefield, return target enchantment card from your graveyard to your hand.%3^3]
+[Eldrazi Antempler@{2}#Artifact${T}: Add {C} to your mana pool.|{1}, {T}: Draw a card. Activate this ability only during your upkeep.%^]
+[Priest of the Flame@{1}{R}#Instant$~ deals 1 damage to each creature without flying and each player. If seven or more cards in hand, then put them back in any order.%^]
+[Grave Elemental@{2}{R}{R}#Creature — Elemental$Flying|When ~ enters the battlefield, it deals 1 damage to target creature or player.%^]
+[Scourge of the Dead@{1}{R}#Enchantment$As ~ enters the battlefield, choose a color.|~'s power is equal to the number of cards in that player's hand.%^]
+[Realmage Recover@{2}{R}#Creature — Goblin Warrior$Whenever ~ deals combat damage to a player, if it isn't renowned, put a +1/+1 counter on it.%2^2]
+[Jarken Prize@{2}{G}#Creature — Fu
+----- diversity: 1.0
+----- Generating with seed: "st to cast ~, sacrifice a creature.|Sear"
+---
+st to cast ~, sacrifice a creature.|Search your library for Imp. (You may cast this spell for its main phase, instead choose and players or a Forest and reveal them. Then each player draws a card.%^]
+[Shimchs@{U}#Instant$As an additional cost to cast ~, sacrifice a black unlast spells. Activate this ability only if you control a nonland card and put a +1/+1 counter on it.)%inna only during their untap step.%1^3]
+[Fortune Serventer@{1}{B}#Creature — Ghippers Beast$~ can't block.|When ~ enters the battlefield, target creature gets -4/-4 until end of turn.%^]
+[Scield with Zubela@{2}{B}#Creature — Human Samurai$Bushido 1 (Whenever this creature blocks or becomes blocked, it gets +1/+1 until end of turn.%^]
+[Luna of the Untair@{4}{G}#Creature — Plant Horror$~ enters the battlefield tapped.|{T}: Add one mana of any color to your mana pool.%^]
+[Grawls of the Wind@{U}#Instant$Target creature gets +3/+1 and gains trample until end of turn.%^]
+[Aegis Aphories@{2}{B}#Creature — Human Cleric$Suspend 4—{W} (Rather than cast this card from your hand, you may pay {W} and exile ~ with four time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)%^]
+[Mae
+----- diversity: 1.2
+----- Generating with seed: "st to cast ~, sacrifice a creature.|Sear"
+---
+st to cast ~, sacrifice a creature.|Search your library for an Island card, put that card onto the battlefield, then shuffles it onto the battlefield. That creature is a non-Shaman.|Persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control.%3^6]
+[Ritle Delise@{2}{G}#Sorcery$Target player discards a nonland card.%^]
+[Keldora Monka@{G}#Creature — Elf${T}, Sacrifice a Saproling: Put a +1/+1 counter on each creature you control.%1^2]
+[Tomber Roje@{R}#Instant$~ deals 2 damage to target creature or player.|Evolve (Whenever a creature enters the battlefield under your control, target player puts the top ten cards of his or her library into his or her graveyard.|threshold — As long as seven or more cards are in your graveyard, ~ also gain rath an additional creature until end of turn.|Drew X cards.%^]
+[Inquusing Resug@{3}{G}{G}#Creature — Lizard$~'s power and toughness are each equal to the number of postcontion the other than discard three cards.%When enchanted land is prevented this way.%^]
+[Nature Ered@{3}{U}#Creature — Eldrazi Drone$Devoid (This card has no color.)|Exile target enchantment.%2^2]
+[Orz, Eyendor@{1}{G}#Legendary Creature — Human Samurai$Bushido 2

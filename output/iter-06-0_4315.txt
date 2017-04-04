@@ -1,0 +1,48 @@
+----- diversity: 0.2
+----- Generating with seed: "ken that's a copy of a creature token yo"
+---
+ken that's a copy of a creature token you control.)%^]
+[Starked Spike@{1}{B}#Creature — Human Warrior$Whenever ~ attacks, it gets +1/+1 until end of turn.%^]
+[Spike of the Faller@{2}{R}#Creature — Human Wizard${1}{B}, {T}: Target creature gets +1/+1 until end of turn.)%2^2]
+[Spike of the Bands@{2}{B}#Sorcery$Destroy target creature with flying.%^]
+[Archant of the War Guild@{2}{B}#Creature — Human Shaman${T}: Target creature gets +1/+1 until end of turn.)%2^2]
+[Spectrate Spider@{2}{B}#Creature — Human Warrior$When ~ enters the battlefield, you get {E}{E} (two energy counters).|Whenever you cast a creature spell, you may put a charge counter on ~.|{T}: Add {G} to your mana pool.%^]
+[Green of the Guild@{2}{R}#Creature — Goblin Warrior$Whenever ~ attacks, it gets +1/+1 until end of turn.)%2^2]
+[Stating Spitter@{2}{B}#Creature — Human Wizard${T}: Target creature gets +1/+1 until end of turn.%^]
+[Sanguary Armor@{2}{R}#Creature — Human Warrior$When ~ enters the battlefield, if you control a creature with defender.%^]
+[Starked Spike@{1}{W}#Creature — Human Cleric${T}: Target creature gets +1/+1 until end of turn.%^]
+[Spike of the Bands@{1}{U}#Instant$Counter target spell unless its controller pays {2}.|Whenever ~ attacks, it get
+----- diversity: 0.5
+----- Generating with seed: "ken that's a copy of a creature token yo"
+---
+ken that's a copy of a creature token you control, where X is the number of cards in an opponent's hand.%^]
+[Spinner Dragon@{2}{B}#Creature — Spirit$Flying|When ~ enters the battlefield, you get {E}{E} (two energy counters).|{2}: ~ gets +1/+1 until end of turn.%1^1]
+[Green Spond@{2}{U}#Instant$Target creature gets +4/+3 until end of turn.%^]
+[Aven, Primal Fest@{2}{G}#Legendary Creature — Human Warrior$Haste|When ~ enters the battlefield, target creature gets +1/+1 until end of turn.|Forestwalk (This creature can't be the target of spells or abilities.)%2^2]
+[Death of The Blade@{2}{U}#Instant$Destroy target artifact.%^]
+[Crushic Demons@{5}{W}#Sorcery$Each player may put a charge counter on ~.|Remove all +1/+1 counters from ~: Create a 1/1 white Knight creature token.%^]
+[Changeling Skyshree@{2}{U}#Instant$Destroy target black creature.%^]
+[Leach of Advolite@{3}{U}#Creature — Fungus Druid${T}: Add {B} to your mana pool.|{T}: Add {C} to your mana pool. ~ deals damage equal to its power to target creature equal to the number of cards in any order, then draws that many cards.%^]
+[Sunstrather Golem@{4}{W}#Creature — Human Scout$Flying|When ~ enters the battlefield, return target creature card from your graveyard to your hand.%
+----- diversity: 1.0
+----- Generating with seed: "ken that's a copy of a creature token yo"
+---
+ken that's a copy of a creature token you control.)%^]
+[Nightmicien to Well@{1}{W}#Creature — Human Cleric Soldier$Trample|When ~ enters the battlefield, you get {E}{E} (the next twit to sep.%^]
+[Gelivi Move@{W}{W}#Sorcery$Search your library for a card named Creepled@#Creature that would enchanted this creature attacking this stiries onto the battlefield.)%^]
+[Chated Shadow@{2}#Artifact$When you control no Enchanted creature during each player this turn, put a +1/+1 counter on ~.%3^3]
+[Nest Skythrath@#Basic Spirit — Eldrazi Ary Avatar${B}, {T}: ~ deals X damage to target creature or player if its flying as you cast this spell, you may sacrifice a nonland card and put it onto the battlefield tapped. Then shuffle your library. or library for an artifact, creature, a source of your choice by serocled this turn.|Fear (This creature can't be blocked except by creatures with power and toughness 2/1 until end of turn.%1^1]
+[Skyxix Culker@#Land$~ enters the battlefield tapped.|When ~ enters the battlefield, you may create a token that's a total of that creature" under its owner's control."%^]
+[Deathraterfurge@{2}{B}{B}#Enchantment${1}{B}{R}: Target creature gets +3/+3 until end of turn. The n't hat four or more.%^]
+[Steambon@#C
+----- diversity: 1.2
+----- Generating with seed: "ken that's a copy of a creature token yo"
+---
+ken that's a copy of a creature token you, then shuffle an opponent.|Each player, muna creatures you control of that recared and assigns no combat.%^]
+[Guepent Tuka@#Land$~ enters the battlefield with X +1/+1 counters on Aura. (It deals damage equal to its power to target creature equal to the numberid power of Humans's life.%2^1]
+[Qaeshrane@{1}{U}#Enstant$Raft this creature: Attach ~ to target attacking creature.|Splice onto Arcane3 Purtaused this bands an artifacts you control. That creature deals 1 damage to target creature, that player chooses looch.%7^6]
+[Jybel Narksh Onla@#Land${2}, Discard this card: ~ gets +1/+0 until end of turn.)%3^4]
+[Tunnestive Champion@{1}{U}#Sorcery$Kicker {1}{G} (You may as ad upko perm sor cost this.)%1^1]
+[Cotese, Vaushin, Hunged Tida@{R}{W}#Legendary Enchantment$At the beginning of your upkeep, if that player's library at random say's from as long as you control a Swamp, counter that mand.%^]
+[Gorned Bulchan@{6}{R}{R}#Creature — Human Warrior$Domain (Whenever this creature blocks or be blocked by only creatures with shadow.)%4^4]
+[Ulechoric Crawler@{4}{B}#Creature — Bat$At the beginning of your upkeep, ~ deals damage equal to the mana cost coment of prote at the top six the py youl lose

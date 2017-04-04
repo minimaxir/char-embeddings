@@ -1,0 +1,43 @@
+----- diversity: 0.2
+----- Generating with seed: "ual to the number of artifacts he or she"
+---
+ual to the number of artifacts he or she controls.%^]
+[Serven of the Dead@{4}{G}#Creature — Human Soldier$Flying|When ~ enters the battlefield, you gain 2 life.%^]
+[Sanding Manter@{2}{W}#Creature — Human Soldier${T}: Target creature gets +2/+2 until end of turn.|{2}{W}: Target creature you control to its owner's hand.%^]
+[Standing Thought@{1}{U}#Creature — Human Soldier$Flying|Whenever you cast a spell, you may pay {1}. If you do, create a 1/1 white Soldier creature token.|{1}{W}: ~ gets +1/+0 until end of turn.%2^2]
+[Death of the Spirit@{2}{W}#Creature — Human Soldier${T}: ~ deals 1 damage to target creature or player.%^]
+[Storm of the Construct@{2}{G}#Creature — Human Soldier${T}: Target creature gets +1/+0 until end of turn.%^]
+[Sphinx of the Stalker@{2}{U}#Creature — Human Wizard${T}: Add {C} to your mana pool.|{T}: Add {C} to your mana pool.|{T}: Add {G} or {W} to your mana pool.|{T}: Add {C} to your mana pool.|{T}: Add {C} to your mana pool.|{T}: Add {C} to your mana pool.|{T}: Add {C} to your mana pool.|{T}: Add {B} or {W} to your mana pool.|{T}: Add {C} to your mana pool.|{T}: Add {G} or {W} to your mana pool.|{T}: Add {W} or {W} to your mana pool.|{T}: Add {C} to your mana pool.|{T}: Add {C} to your mana pool.|{
+----- diversity: 0.5
+----- Generating with seed: "ual to the number of artifacts he or she"
+---
+ual to the number of artifacts he or she controls, then sacrifices a creature.|{1}, {T}: Destroy target creature. It can't be regenerated.%^]
+[Grintle of the Stalls@{1}{R}{R}{R}#Creature — Spirit$Flying|When ~ enters the battlefield, reveal the top card of your library and the rest on top in any order.%^]
+[Sphorn of Wilds@{1}{G}#Enchantment$Whenever a creature you control deals combat damage to a player, that player shuffles his or her library into his or her graveyard.%^]
+[Starm Sliver@{2}{R}#Creature — Human Soldier${T}: Target player reveals his or her hand as it resolves to its owner's hand.%^]
+[Moonforcer Elemental@{2}{U}{U}#Creature — Human Soldier${1}{R}: ~ gets +2/+2 as long as you control a creature that didn't have defender.%^]
+[Confill Sprite@{2}{B}#Sorcery$Choose one —|• Destroy target nonblack creature.%^]
+[Warding Shaman@{1}{R}#Creature — Human Soldier${T}: Target creature you control that player controls.%2^2]
+[Preet Hexistion@{G}#Creature — Human Soldier${B}{B}: ~ gets +2/+2 until end of turn.|{T}, Sacrifice ~: Counter target spell unless its controller pays {2}.|{T}: Add {C} to your mana pool.|{T}: Add {B} or {W} to your mana pool.|{2}, {T}, Sacrifice ~: Destroy target creature you control. Equip only as
+----- diversity: 1.0
+----- Generating with seed: "ual to the number of artifacts he or she"
+---
+ual to the number of artifacts he or she controls, thex you lose 1 life and you gain 2 life.%^]
+[Slymage of the Stitchs@{4}{R}#Sorcery$Trens the battlefield tapped with its toughness 2/2 red and a site to player controls.%^]
+[Shade Heave@{3}{G}#Sorcery$Return another creature to its owner's hand. (They can't be blocked by slandwalker as long as defending player controls a creature.|−3: ~ deals X damage to target creature or player.|{B}: Players pack it without paying its mana cost. You gain life equal to its converted mana cost from the first ond mona totion for target players. Until your next effects can't attack")|Flying|If you cast a from your hand, put it into your hand as it resolves. This deals to a creature is tapped for manad a shadow and that player.%^]
+[Glisty the Restorge@{1}{R}{G}#Sorcery$Pay 2 life for each opponent's you control.%6^6]
+[Champire Akolite@{R}{W}#Sorcery$You gain 5 life.%^]
+[Ulen of the Bain@{3}{B}{R}#Legendary Creature — Human Advisor$When ~ enters the battlefield, screate a 4/4 Dragon instant creature tokens for each card revealed this way.%^]
+[Scaremate Mates@{8}{U}#Artifact${U/R}{U}taich your pretent move an additional 1 white as though it didn't have defender.%1^1]
+[Breadwrikh Sleep@{W}#Cr
+----- diversity: 1.2
+----- Generating with seed: "ual to the number of artifacts he or she"
+---
+ual to the number of artifacts he or she controls. ~ deals 1 damage to you.|Dredhe ({3}{G}{G} kicker this to this card tap ~. If you win, ~-leash 3} or may this to ~.|Three creatures enthanted creature.%0^1]
+[LalokistGlepeblosic Sqewoly@{W}#Instant$Look at taven all creature named ~. Whild with its {R} trandibrace as long as you control Plains you control.%^]
+[Vipon of the Rexortomiuse@{R}#Enchantment — Aura$Enchant creature|Enchanted creature enters the battlefield.|Equip {2}%^]
+[Phyly of Dedelbid@{4}{U}#Creature — Spectram$Trample, indestructible|When ~ enters the battlefield, you gain 4 life.|{2}: If ~ deals 2 damage to target creature or player.%^]
+[Rrie-Wall Pecebar@{5}#Artifact$Kind.|• Remove a time counter from basicking leave to their own permanents kere are its toughness as long as ~'s you control get +2/+2 (Ot can attack you or for the game.)%3^3]
+[Harkret's Rimader@{3}{W}#Legendary Creature — Eldrazi Drone$Flying|Whenever ~ attacks, you gain 3 life.%^]
+[Mockno@{4}{W}#Enchantment$Whenever an dounter the battlefield attacked this turn, where X is its converted mana cost as it besown you or more nontoken word.|Equip {3}%^]
+[Vavenora@{1}{G}{U}#Creature — Bat$Fade (This creature can't be blocked as long as you cont

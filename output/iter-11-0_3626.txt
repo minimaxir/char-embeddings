@@ -1,0 +1,46 @@
+----- diversity: 0.2
+----- Generating with seed: "black. (Each {B} in the mana costs of pe"
+---
+black. (Each {B} in the mana costs of permanents you control.%^]
+[Courie Stalker@{1}{B}#Creature — Human Wizard${T}: ~ deals 1 damage to target creature or player.%^]
+[Stone Spirit@{1}{R}#Creature — Human Wizard${T}: Add {U} to your mana pool.|{1}{W}{W}, {T}: Target creature gets +1/+1 until end of turn.)|Whenever ~ attacks, if defending player controls a creature.)%^]
+[Stream Spirit@{2}{B}#Creature — Human Wizard${T}: Add {G} to your mana pool.%^]
+[Spitting Strom@{1}{G}#Creature — Elf Shaman${1}{B}, {T}: Target creature gets +1/+1 until end of turn.)|Whenever ~ deals combat damage to a player, you may put a +1/+1 counter on ~.%1^1]
+[Skyshroud Spirit@{2}{G}#Creature — Elemental$Whenever ~ deals combat damage to a player, if it isn't renowned, put a +1/+1 counter on it. If ~ was kicked, it enters the battlefield with three +1/+1 counters on it.|{1}{B}, Sacrifice ~: Target creature gets +1/+1 until end of turn.)|Whenever ~ attacks, if defending player controls a creature.)%^]
+[Consul Shaman@{2}{R}#Creature — Human Wizard${T}: Add {G} to your mana pool.%^]
+[Serra Spirit@{1}{W}#Creature — Human Soldier$Whenever ~ blocks, it gets +1/+1 until end of turn.)|Whenever ~ attacks, it gets +1/+1 until end of turn.)|Whenever ~ attack
+----- diversity: 0.5
+----- Generating with seed: "black. (Each {B} in the mana costs of pe"
+---
+black. (Each {B} in the mana costs of permanents you control. Then that player shuffles his or her library.%^]
+[Broodstorm@{3}{U}#Instant$Target creature gets -2/-0 until end of turn.%^]
+[Devilar Life@{2}{B}#Creature — Zombie Minion${R}, {T}: Tap target creature.%^]
+[Whirlwrost Scarecringer@{3}{G}#Creature — Beast$Trample|When ~ enters the battlefield, you get {E}{E} (two energy counters).|Whenever a creature attacks, remove a +1/+1 counter from ~.%1^1]
+[Timber Outcher@{1}{R}#Creature — Ogre$Whenever ~ becomes blocked, it gets +1/+1 until end of turn.)|Whenever ~ deals combat damage to a player, that player loses 1 life.%2^2]
+[Spite Spirit@{4}{R}#Creature — Human Wizard${T}: Add {G} to your mana pool.%^]
+[Shape Reclan@{1}{B}#Creature — Warrior$As ~ enters the battlefield, sacrifice a nonland card. If you do, return ~ to its owner's hand.%^]
+[Elite Short@{1}{W}{W}#Sorcery$As an additional cost to cast ~, sacrifice a creature.|Target creature gets -1/-1 until end of turn.|{1}{W}: ~ gets +1/+0 until end of turn.%2^2]
+[Dragon Healer@{1}{B}#Creature — Zombie$At the beginning of each player's upkeep, that player sacrifices a permanent.%^]
+[Courie Priest@{1}{W}#Creature — Human Soldier$Flying|Whenever you gain life, flying|When
+----- diversity: 1.0
+----- Generating with seed: "black. (Each {B} in the mana costs of pe"
+---
+black. (Each {B} in the mana costs of permanents. This effect doesn't remove ~.%^]
+[Bursting Tramminder@{3}{R}{R}#Creature — Elf$Reveal ~ as sources you sacrifice counters on a permanent, put a +1/+1 counter on that creature.%3^3]
+[Lastch Grind Reruicor@{2}{B}#Creature — Rat$~ can't be blocked.|Artifacts his or her hancs action cost. If you do, put a +1/+1 counter on target creature.%7^7]
+[Shiblering Justice@{1}{B}#Creature — Zombie$~ gets +1/+1 for each of those highest or been each get +2/+2.|Equip {2}%^]
+[Cryptivator of Bladewalf@{1}{B}{G}#Creature — Elf Archer${3}, {T}, Discard a card: Cast ~ from your graveyard back combat damage to you and step. Create a 5/5 colorless Golem artifact creature token.%^]
+[Dishlash of Darings@{1}#Artifact$At the beginning of your upkeep, you may search your library for a land card, reveal it, put it into your hand, then shuffle your library.%11^10]
+[Abstic Flocker@{G}#Enchantment — Aura$Enchant land|Enchanted land has "{X}{1}{R}, {T}: Add one mana of any color to your mana pool.%^]
+[#Valight-Candrite@{1}{W}#Creature — Human Soldier$When ~ enters the battlefield, return target creature card from your graveyard to your hand.%^]
+[Soltic Drainers@{4}{W}{W}{W}#Summon — Archangel$~'s power i
+----- diversity: 1.2
+----- Generating with seed: "black. (Each {B} in the mana costs of pe"
+---
+black. (Each {B} in the mana costs of permanents you control to their owner's hand.%2^2]
+[Morn@{1/B}{W/B}{W/B}#Sorcery$As an additional cost to cast ~, sacrifice a land.|{2}, {T}: Destroy target artifact. Any player may activate this ability.|Whenever equipped creature deals damage to a creature, it deals 4 damage to it.%2^2]
+[Slaughter Glist@{2}#Artifact${T}, Sacrifice ~: Return target creature card with converted mana cost X. Activate this ability only any time you could cast an artifact creature with power 3 or greater, for each artifact, creature, enchantment, or planeswalker and Islands, ~ deals 3 damage to that player.%4^4]
+[Thanger the Cruster@{3}{G}#Creature — Eldrazi Spite$When ~ enters the battlefield, if it's ongre four or more lands of the chosen color of your choice become attlefield with a counter on it.|LEVEL 1+|~ gets -1/-1 as long as enchanted creature's controller to gain that much life.)%2^1]
+[Cfaelicate@{3}#Artifact$All creatures blocking Zombie creatures tokgnes. If it's Aura you control addn't other players if dealt to target creature would deal this turn.%^]
+[Fartifiner Glas@{4}{G}#Sorcery$If you win or no mmorver, create a 1/1 colorless Sfaman creature token with vigilance.%^]
+[Flight fightwingust

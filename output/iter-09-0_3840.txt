@@ -1,0 +1,46 @@
+----- diversity: 0.2
+----- Generating with seed: "$Choose target creature. If it's attacki"
+---
+$Choose target creature. If it's attacking player, that player discards a card.%^]
+[Steam of the Faller@{2}{B}#Creature — Horror$Flying|When ~ enters the battlefield, if you control two or more spells last turn, transform ~.%3^3]
+[Death of the Fallen@{2}{G}#Creature — Elemental$Flying|When ~ enters the battlefield, you may put a card an opponent owns from your hand from the top of his or her library until he or she reveals a creature card. The deals combat damage to a player, you may pay {1}. If you do, ~ deals 1 damage to target creature or player.%^]
+[Searing Stand@{2}{B}#Sorcery$Target player discards a card.%^]
+[Stone of the Fallen@{1}{W}#Creature — Human Soldier$Flying|When ~ enters the battlefield, you may search your library for a basic land card, reveal it, and put it into your hand. Then shuffle your library.%^]
+[Standing Stand@{3}{U}#Instant$Counter target spell unless its controller pays {1}.%^]
+[Caldows of the Fallen@{3}{B}{B}#Sorcery$Choose one —|• Target creature gets -1/-1 until end of turn.|{2}{B}: Regenerate ~.%1^1]
+[Stone Stalker@{3}{U}#Creature — Human Wizard${2}{W}: ~ gains flying until end of turn.%^]
+[Consul Scarphing@{2}{B}#Sorcery$Destroy target creature with power 4 or greater controls and target
+----- diversity: 0.5
+----- Generating with seed: "$Choose target creature. If it's attacki"
+---
+$Choose target creature. If it's attacking player, put a +1/+1 counter on it.)%2^2]
+[Cloudsplith Returned@{1}{R}#Enchantment$Whenever a creature deals combat damage to a player, if you control a blue creature with power 4 or greater.%^]
+[Imper of the Dample@#Creature — Dragon$Flying|When ~ enters the battlefield, sacrifice it unless you pay its upkeep cost for each age counter on it.)|At the beginning of your upkeep, sacrifice ~ unless you pay {1}.|Cycling {2} ({2}, Discard this card: Draw a card.)%^]
+[Farming Archant@{2}{B}{B}#Sorcery$Destroy target artifact or enchantment.|• Return target creature to its owner's hand.%^]
+[Brang Merfolk@{2}{G}#Creature — Elf Artificer${T}: Target player discards a card. Activate this ability only any time you could cast a sorcery.%3^3]
+[Spireshow Golem@{1}{G}#Creature — Human Wizard${T}: Destroy target artifact or enchantment.%^]
+[Shoraw Sliver@{2}{G}#Creature — Beast$When ~ enters the battlefield, put a +1/+1 counter on it.%^]
+[Guardian Banding@{1}{R}#Enchantment$At the beginning of your upkeep, you may put a charge counter on ~.|{T}, Remove a +1/+1 counter from ~: Target creature gets +2/+0 until end of turn.%^]
+[Mortis Vampire@{1}{G}#Creature — Human Wizard${G}: Regenerate ~.%2^2]
+[R
+----- diversity: 1.0
+----- Generating with seed: "$Choose target creature. If it's attacki"
+---
+$Choose target creature. If it's attacking player's hand, puts a land of the chosen of the chosen player's control are blocking except it attacks each combat if able." backs it for each graveyard for its becomes powner's hand.%^]
+[Lastuve Ojuter@{R}#Creature — Werewolf$First strike%2^2]
+[Greatoming Devile@{1}{U}#Creature — Horror$Prowess (Whenever you cast an instant or sorcery spell, put a +1/+1 counter on it.%3^2]
+[Goblin Prings@{1}{R}{R}#Sorcery$Look at the top card of your library, you may pay {2}{R} and exile it with three time counters on it. At the beginning of your upkeep, remove a fade counter from it. If you can't, sacrifice it.)|Whenever a creature dealt damage to an opponent controls dealt damage this turn to that spell or abilities your opponents control.)%5^4]
+[Court of Throuty@{2}{B}#Sorcery$Each player sacrifices a creature with "%^]
+[Araw of Throots@{W}{W}#Legendary Creature — Human Samurai$Bushido 1 (Tap abilities untapped creatures you control: ~ deals 5 damage to target creature equal to the number of artifacts you control.%2^6]
+[Serpenjal Spiter@{5}{R}#Creature — Orch$Fear (This creature can't be blocked except by creatures with horsemanship was a creature this turn, you may have that player untap on
+----- diversity: 1.2
+----- Generating with seed: "$Choose target creature. If it's attacki"
+---
+$Choose target creature. If it's attacking from it and produces).|Create a 4/5 white Spirit creature token.|Drfor a creature cards after this one.%^]
+[Dimeraise's Chiefderna@{2}{G}#Enchantment$Play swamps you control enter the battlefield tapped.%^]
+[Angleoly the Ball@#Land$At the beginning of each opponent's upkeep, you may tap two reveal combat damage.)%^]
+[Reclasm@{1}{B}#Enchantment$All creatures pwen Basic land cards, reveal that card, and prolice and paid this way, put it into your graveyard, that player loses 3 life.%^]
+[Snacruf Troll@{R}{B}#Legendary Creature — Crab|{G}#Legendary Clerce — Golem$You may exilca a land for mana, Khara get player choses m ana 6 lock player divicauds equal to any other controls abilities can't be the ‘tapped.|Hexproof (Start the game wiydrawen you'r max artifact, create ~ also 1 or more: Add nonloy to your mana pool that loy to search.|Equip {2}%^]
+[Gradni Consulede@{2}{W}{W}#Instant$Creatures can't block this turn.%1^1]
+[Fiently Faerier@{3}{U}#Creature — Elemental$Instent whose to sorcery cards from your graveyard.%3^3]
+[Watchsmight's Rid@{G}#Instant$Destroy target artifact.|Morph {5}{W}{U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its m

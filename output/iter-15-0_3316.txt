@@ -1,0 +1,52 @@
+----- diversity: 0.2
+----- Generating with seed: "Instant$Tap or untap all permanents by t"
+---
+Instant$Tap or untap all permanents by the chosen player controls creatures that share a color with it.)%^]
+[Stone Spirit@{1}{U}#Creature — Human Wizard${T}: Add {C} to your mana pool.%^]
+[Stream Master@{1}{G}#Creature — Human Warrior$Whenever ~ deals combat damage to a player, you may pay {1}. If you do, create a 1/1 white Spirit creature token with flying.%^]
+[Silver of the Dead@{2}{B}#Creature — Zombie Warrior$When ~ enters the battlefield, create a 1/1 green Saproling creature token.%^]
+[Starfied Elemental@{1}{R}{R}#Creature — Human Shaman${T}: Add {C} to your mana pool.%^]
+[Changeling Stand@{2}{R}#Enchantment$Whenever a creature an opponent controls dies, you may pay {2}{B}. If you do, create a 1/1 colorless Eldrazi Scion creature tokens. They have "Sacrifice this creature: Add {C} to your mana pool."%^]
+[Stream Stalker@{3}{R}#Creature — Human Soldier$Whenever ~ deals combat damage to a player, you may pay {2}{R}. If you do, create a 1/1 green Saproling creature token.%^]
+[Grave Spellbomb@{1}{U}#Instant$Counter target spell unless its controller pays {2}.%^]
+[Stronghold Specter@{1}{G}#Creature — Elemental$Chaste|When ~ enters the battlefield, you gain 2 life.%^]
+[Crackling Storm@{3}{G}{G}#Creature — Beast$When ~ die
+----- diversity: 0.5
+----- Generating with seed: "Instant$Tap or untap all permanents by t"
+---
+Instant$Tap or untap all permanents by the chosen player controls during each opponent's turn and the rest on the bottom of your library in any order.%^]
+[Sands of the Falk@{2}{G}#Legendary Enchantment$At the beginning of your upkeep, you may exile two red cards without paying its mana cost. If you do, each opponent may reveal a card from it. That player discards that card.%^]
+[Death Cultivory@{2}{B}#Instant$Target creature gets +1/+0 until end of turn.%2^2]
+[Horrow Familiarch@{4}{B}{B}#Creature — Human Wizard${T}: Target creature gains haste until end of turn. (It can block creatures with flying.)%^]
+[Condertory@{4}{G}#Enchantment${1}{G}: Change the target of target spell or ability.%4^5]
+[Rotter of the Lunds@{1}{R}#Instant$~ deals 3 damage to target creature or player.%^]
+[Serra Shadow@{2}{R}#Enchantment — Aura$Enchant creature|At the beginning of your end step, if a card and exile the top card of that player does. Until end of turn, that player loses 4 life.%2^2]
+[Ashendra's Mage@{3}{R}#Enchantment — Aura$Enchant creature|When ~ enters the battlefield, you gain 2 life.%^]
+[Lotus Call@{1}{R}#Instant$~ deals 2 damage to each of up to two target creatures.%^]
+[Stormwill Spirit@{3}{W}#Creature — Human Cleric$When ~ enters
+----- diversity: 1.0
+----- Generating with seed: "Instant$Tap or untap all permanents by t"
+---
+Instant$Tap or untap all permanents by that spell's converted mana cost.%^]
+[Spirit of the Lord@{X}{U}{U}#Instant$Counter target sorcery spell.%^]
+[Siding Lield Discipler@{1}{U}#Creature — Vampire Warrior$Flying|{0}, {T}: Draw a card, then discard a card. If you do, that player loses 2 life.%^]
+[Flamebono@{4}{U}#Creature — Human Wizard$Each land is an Island until end of turn.)%1^2]
+[Arcbound Construct@{U}#Instant$Counter target snow.|{W}{W}: Creatures you control of target creature gets +1/+0 until end of turn for each Dwark you control.%^]
+[Consecrute Lord@{2}{W}#Instant$Until end of turn, target creature deals 1 damage to target creature or player.%^]
+[Mindsas@{3}{R}#Sorcery$Choose one —|• Target creature can't attack this turn.%^]
+[Celllhon's Emismate@{4}{U}#Creature — Hag$~ can't block.%8^8]
+[Fail Spirit@{4}{R}#Instant$~ deals 2 damage to target creature or player. If seven are four or more land life total get -1/-0.%^]
+[Packlaid Eigar@{1}{W}{W}#Creature — Human Soldier$Vigilance|Sacrifice a Goblin: Draw a card.%^]
+[Stoumbed Claw@{R}#Instant$If you control a white Beast: Destroy it would deal damage to you this turn.%^]
+[Invider's Sornation@{2}{R}#Enchantment$As ~ enters the battlefield, startifact with a creature i
+----- diversity: 1.2
+----- Generating with seed: "Instant$Tap or untap all permanents by t"
+---
+Instant$Tap or untap all permanents by target opponent choses a permanent of the chosen type is on the battlefield.)%6^6]
+[Slumenage Farabaticate@{G}#Creature — Naca$~ enters the battlefield tapped.|When ~ enters the battlefield, look at the top X cards of your library and put that card into your hand. You lose all opplese that card's controlled bach it without paying its mana cost. If you lose the flip, rolly and target source and blocked creature twice for each creature card before on-you.)|~ attacks each turn if able.%2^1]
+[Aural Hera@{2}{U}#Instant$Choose one —|• Target creature gets +1/+2 until end of turn for each other attacking Auroc. Whenever that creature deals combat damage to a player, put a -1/-1 counter on target creature.%^]
+[Sxayward Serkerpable@{3}{U/B}{B/R}#Instant$Scry 2.%^]
+[Scourgy Volem@{6}#Artifact Creature — Merfolk Wizard${2}{U}{U}, {T}: Exile target beyond the first. If you do, detaiCling effect cards in your graveyard.%^]
+[Rurad Hent@{2}{G}#Instant$Search your library for a Ram Shade to exile ~.)%4^4]
+[Tempes Unball@{G}#Instant$~ deals X damage to each creature your opponents control. Otherwise, draw a card.%^]
+[Grimous Sormite@{3}{R}#Creature — Giant Warrior$Devour (This creature can't be bloc

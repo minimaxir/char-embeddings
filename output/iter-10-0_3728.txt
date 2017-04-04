@@ -1,0 +1,53 @@
+----- diversity: 0.2
+----- Generating with seed: "ature equal to the number of Equipment y"
+---
+ature equal to the number of Equipment you control.%^]
+[Shambling Specter@{1}{G}#Creature — Elf Warrior${T}: Target creature gains flying until end of turn.%^]
+[Spine Spirit@{1}{R}#Creature — Goblin$~ can't be blocked by creatures with flying.%^]
+[Servant of the Reace@{2}{W}#Enchantment$Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)%3^3]
+[Servant of the Wind@{2}{B}#Enchantment$Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)%2^2]
+[Stone Spike@{2}{W}#Enchantment$Whenever a creature an opponent controls becomes tapped, you may pay {1}. If you do, create a 1/1 colorless Eldrazi Scion creature token instead.%^]
+[Staffing Master@{2}{G}#Creature — Elf Warrior$Whenever ~ attacks, it gets +1/+1 until end of turn.)%3^3]
+[Silver of the Walker@{3}{W}#Creature — Human Soldier$Whenever ~ attacks, create a 1/1 green Saproling creature token.%^]
+[Helic Strangler@{2}{G}#Creature — Elf Wizard$Flying|When ~ enters the battlefield, destroy target artifact.%^]
+[Skyshroud Spirit@{1}{U}#Creature — Human Wizard${T}: Add {G} to your mana pool.%^]
+[Crabe Spell@{3}#Artifact${T}: Add {G} to your mana pool.%^]
+[Sandspender@{2}{B}#Creature — Human Wizard${T}: Add
+----- diversity: 0.5
+----- Generating with seed: "ature equal to the number of Equipment y"
+---
+ature equal to the number of Equipment you control.%^]
+[Manian Rage@{4}{R}#Enchantment$At the beginning of each upkeep, if no spells were cast last turn, transform ~.%3^2]
+[Handerous Revelers@{2}{R}#Creature — Goblin Rogue$Flying|Infect (This creature deals damage to creatures in the form of -1/-1 counters.)%^]
+[Spell of the Master@{1}{R}#Creature — Human Wizard${T}: Add {G} to your mana pool.%^]
+[Field of the Wilds@{4}{U}#Enchantment — Aura$Enchant creature|Enchanted creature gets +2/+2 and has first strike.%^]
+[Brangler Harvest@{1}{B}#Instant$Target creature gets +1/+1 until end of turn.%2^2]
+[Cloud Skirk@{2}{G}#Sorcery$Destroy target creature with flying.%^]
+[Horrow Grave@{2}{G}#Enchantment${1}{G}, Discard a card: Return ~ to its owner's hand.%2^2]
+[Solver of the Wind@{1}{G}{G}#Enchantment$Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)%2^2]
+[Goblin Priestone@{4}{B}#Sorcery$Return target creature card from your graveyard to your hand.%^]
+[Impal Tower@{2}{G}#Creature — Beast$Whenever ~ attacks, it gets +1/+1 until end of turn.)%4^4]
+[Realmage Guardian@{3}{G}#Creature — Elf Warrior${T}: ~ deals 2 damage to target creature or player.%2^2]
+[Vish of Nouth@{2}{G}#Instant$Target cr
+----- diversity: 1.0
+----- Generating with seed: "ature equal to the number of Equipment y"
+---
+ature equal to the number of Equipment you control.%2^2]
+[Gliritorscale Evolmager@{1}{R}#Creature — Goblin Shaman${1}{W}: Return ~ from your graveyard to the battlefield.|Rebound (If you cast this card, exile, another target creature can't attack unless they controller creatures than shadow a creature that player controls, then sacrifices a creature or colorless.|~ deals 2 damago to each creature without flying.|Sacrifice a creature: ~ deals 2 damage to each creature without shadow until end of turn. Sacrifice it at the beginning of the next end step.%^]
+[Death of the Fals@{3}{U}#Instant$As an additional cost to cast ~, sacrifice a creature.|Tap up to two target creatures.)|Whenever oppoinscadd an artifact, you control a white creature.%4^3]
+[Hellship@{X}{R}#Sorcery$Destroy target artifact or enchantment card from your graveyard to your hand.%5^1]
+[Rocter to Vullbrict@#Land${T}: Add to your mana pool.|Ayscel {1}{U} (You may sacrifice a creature card from that player's graveyard.|Domad {2}{R}, {T}: Add {U}{U} to your mana pool. ({Q} is the untap symbol.)%2^2]
+[Mystic Spike@{3}{W}{W}#Sorcery$Kicker {2}{U} (You may pay an additional {X} as you cast this spell.)|When ~ is turned face up, search your library for up to two lan
+----- diversity: 1.2
+----- Generating with seed: "ature equal to the number of Equipment y"
+---
+ature equal to the number of Equipment you control.%*^4]
+[Gra,ns of Elementain@{7}{U}{U}#Legendary Creature — enchant$When ~ enters the battlefield, look at the top three cards of your library.-Oousling (Whenever this creature with a nonled creature card from among them into your hand. Then shuffle your library.%1^1]
+[Goblin Spike@{G/U}#Instant$Each playerLats you cast counters untapped.%^]
+[Powerin@{W}#Instant$Nonawavicker {R}{R} (Cwarge counters on it, rexide this mana pid. Put the exiled cards on the bottom of your library in any order.%2^2]
+[Pendanic Skysand@#Creature — Insect troke${T}: Target creature you control becomes black. (Equip only as a sorcery.)%2^1]
+[Sleel Hoor@{U}{U}#Instant$Counter target spell.%^]
+[Nive Suppediance@{W}{W}#Enchantment$Whenever an opponent casts a Spirit card, reveal it, untap ~.%^]
+[Sickcas@{8}{R}#Creature — Centaur Archer$Flying|When ~ enters the battlefield, move a +1/+1 counter from ~.%^]
+[Thand of Moglin@{1}{R}#Creature — Merfolk Wizard$Whenever another creature enters the battlefield under your control, target creature blocks ~. Otherwise, draw a card.%2^2]
+[Vitalid's Gaeephanger@{W}#Creature — Human Rebel Nomad$Gue ko-1 (Whenever this creature blocks one or becomes blue.|Sacrifice

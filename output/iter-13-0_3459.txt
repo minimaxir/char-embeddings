@@ -1,0 +1,45 @@
+----- diversity: 0.2
+----- Generating with seed: "}#Creature — Elemental$~ is indestructib"
+---
+}#Creature — Elemental$~ is indestructible.|Whenever a creature you control deals combat damage to a player, you may pay {1}. If you do, return ~ to its owner's hand.%^]
+[Shambling Storm@{1}{U}#Instant$Counter target spell unless its controller pays {1}.%^]
+[Selesnit Cat@{1}{W}#Creature — Human Soldier$When ~ enters the battlefield, you may put a quest counter on ~.|{T}, Remove a charge counter from ~: Put a +1/+1 counter on ~.%2^2]
+[Spinning Stand@{2}{B}#Creature — Zombie$When ~ enters the battlefield, you may search your library for a Mercenary permanent card with converted mana cost X or less from your graveyard to the battlefield.%^]
+[Silver of the Fallen@{1}{W}#Creature — Human Soldier$When ~ enters the battlefield, you may search your library for a basic land card, reveal it, and put it into your hand. If you do, shuffle your library.%^]
+[Chandra Sphinx@{1}{G}#Creature — Elf Shaman$When ~ enters the battlefield, you may search your library for a basic land card, put it onto the battlefield and the rest into your hand.%^]
+[Seeker of the Fallen@{2}{B}#Creature — Zombie$When ~ enters the battlefield, you may search your library for a basic land card, reveal it, and put it into your hand. Then shuffle your library.%^]
+
+----- diversity: 0.5
+----- Generating with seed: "}#Creature — Elemental$~ is indestructib"
+---
+}#Creature — Elemental$~ is indestructible as long as your opponents have seven or more land cards from it.%^]
+[Disciple of the Reach@{1}{U}#Instant$Exile target creature you control and it becomes a 0/0 Elemental creature with haste. It's still a land.)%^]
+[Silver Atom@{1}#Artifact${2}: ~ gets +1/+1 until end of turn.%1^1]
+[Mindstrack Elf@{3}{G}#Creature — Elf Shaman${1}{R}, {T}: ~ loses thall to the exiled cards of than high corder's life.)|Other creatures you control get +1/+1.|{R}: ~ gets +1/+0 until end of turn.%3^3]
+[Staffing Liekerguard@{1}{R}{R}#Creature — Goblin Shaman$When ~ enters the battlefield, if you control two or more Forests and a white or blue permanent with converted mana cost equal to the number of creatures you control. Put a +1/+1 counter on it. It can't block as long as it has a +1/+1 counter on it.)%1^1]
+[Elvish Clouds@{1}{G}#Creature — Wurm$Whenever ~ attacks, defending player discards a card.|When ~ leaves the battlefield, sacrifice it unless you return another creature you control to its owner's hand.|• Target creature gets -5/-5 until end of turn.%^]
+[Orcish Bannered@{2}{R}#Creature — Human Wizard${T}: Target creature gains haste until end of turn.%1^1]
+[Care of the Holl@{4}{G}#Creature — Wur
+----- diversity: 1.0
+----- Generating with seed: "}#Creature — Elemental$~ is indestructib"
+---
+}#Creature — Elemental$~ is indestructible.|Whenever a creature deals damage to another tapped creature doesn't control.%6^4]
+[Pulse the Eidor@{3}{B}{B}#Creature — Plant$Play Kicsustal {W} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)%3^3]
+[Blindand Phyrexia@{G}{G}{G}#Creature — Elf Wizard Scout$At the beginning of the upkeep of enchanted enchantments you control to their owner's hand.|• If ~ was kicked with its {W} kip you pay {3}.%1^1]
+[Nuble to Well@{4}{W}#Creature — Human Soldier$Whenever ~ attacks, it becomes a creature again if it's not attached to a creature.)%0^1]
+[Spell Shrine@{4}{B}#Creature — Rat$When ~ dies, target opponent discards two cards.%^]
+[Ogre@{1}{B/G}#Instant — Arcane$Block all creatures have protection from red.%^]
+[Rimema@{W}{U}#Creature — Spirit$~ can't attack unless defending player controls a Swamp you control, other than at end of combat.%3^3]
+[Canopling Roa@{1}#Artifact${1}, {T}, Sacrifice a creature: You gain X life.%^]
+[Ramosa Randing@{1}{G}#Creature — Elf Druid$When ~ attacks, you have sus} counters on ~.|{T}: Add {C}{C} to your mana pool.%^]
+[Terramor@{2}#Artifact$Uppout only as a sorcery.)%^]
+[Trivie Abommant@#Land$~ enters the b
+----- diversity: 1.2
+----- Generating with seed: "}#Creature — Elemental$~ is indestructib"
+---
+}#Creature — Elemental$~ is indestructible as long as the card revealed this way into your hand and the rest on the bottom of your library red.%^]
+[Edic Foot@{2}{G}{G}#Enchantment$Whenever a player casts a white spell, has first strikes of {B} was spent to cast it.%^]
+[Stade Channrion@{4}{U}{U}#World Enchanter — Aura Ship Card$When you set this scheme in motues, exile that caOnthi control of "tapped and all other counses {W}. If you do, ~ gains deathtouch until end of turn. (It deals both first strike and becomes a copy of the artist counters on it.|{1}{B}: Target red creature gets -2/-0 until end of turn."%2^1]
+[G treylant Momancer@{2}{W}#Creature — Human Soldier$~'s power is equal to the number of Mountains you control.%^]
+[Tezerring Pulsion@{3}{R/W}{G/W}{G/W}{W/B}#Creature — Dwarf Berserker$Islandwalk (This creature can't be blocked as long as defending player controls a Forest.)|~ attacks each turn if able.|Threshold — Enchanted permanent gets +4/+0.%2^2]
+[Broar, Crush Retal@{6}{R}#Planeswalker — Nissa$+1: Untap elayrctinal creatures you control gain deathtouch until end of turn. (If it would assign enough damage he {E} (an energy counter).|Totem creatures you control of it.|Monsing (You may cast this card from your 

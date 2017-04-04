@@ -1,0 +1,48 @@
+----- diversity: 0.2
+----- Generating with seed: "pkeep, starting with you, each player vo"
+---
+pkeep, starting with you, each player votes for the graveyards hands.%^]
+[Shield Consum@{2}{R}#Instant$Target creature gets +1/+1 until end of turn.)|{1}{R}: ~ gets +1/+0 until end of turn.%2^2]
+[Skinser of the Wall@{1}{R}{R}#Creature — Human Wizard${T}: Target creature gets +1/+1 until end of turn.%^]
+[Seek Dark Mage@{3}{R}#Enchantment — Aura$Enchant creature|Enchanted creature gets +1/+0 and has flying.%^]
+[Shadow Spirit@{3}{G}#Creature — Elemental$Flying|When ~ enters the battlefield, you may pay {1}{B}{B} and exile it with five time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)%^]
+[Stone Spider@{1}{R}#Creature — Human Wizard${T}: Target creature gets +1/+1 until end of turn.)|{1}{R}: ~ gets +1/+0 until end of turn.%1^1]
+[Shadow Consum@{3}{U}#Creature — Human Wizard${T}: Target creature gets +1/+1 until end of turn.)|{W}: ~ gets +1/+0 until end of turn.%2^2]
+[Skyshroud Shaman@{2}{R}#Creature — Human Wizard${T}: Target creature gets +2/+2 until end of turn.%^]
+[Seeds of the Storm@{2}{R}#Sorcery$~ deals 4 damage to target creature or player.%^]
+[Spinn of the Stalker@{2}{G}#Creature — Elemental$Flying|When ~ enters the battlefield,
+----- diversity: 0.5
+----- Generating with seed: "pkeep, starting with you, each player vo"
+---
+pkeep, starting with you, each player votes for the graveyards he or she controls.%^]
+[Carran Marsh@{1}{G}#Creature — Elf Warrior${T}: Target creature gets +1/+0 until end of turn.%2^1]
+[Surule Shorcer@{2}{B}#Creature — Human Wizard${T}: Creatures you control get +0/+2 until end of turn.%^]
+[Fate the Scout@{1}{G}#Enchantment$At the beginning of your upkeep, if you control an Island, then return that card to the battlefield under their owner's control with the same name as that card. You may cast this card from exile without paying its mana cost. It has haste.)|When ~ enters the battlefield, search your library for a card named Forests of the chosen color words that shares a color with it. You may choose a nonland card from it. That player puts the top two cards of his or her library into his or her graveyard.|Gotcha When ~ enters the battlefield, it deals damage to target player equal to the number of creature cards in your graveyard.%^]
+[Skirsting Impage@{3}#Artifact Creature — Treefolk${T}: Target player discards a card.%^]
+[Consendol@{1}{W}#Creature — Human Soldier${R}: ~ gains flying until end of turn.%1^2]
+[Spectral Drake@{2}{R}#Creature — Human Wizard${T}: ~ deals X damage to target creature or player instead.%3^3]
+----- diversity: 1.0
+----- Generating with seed: "pkeep, starting with you, each player vo"
+---
+pkeep, starting with you, each player votess returns a card exiled this way.%^]
+[Larb@{1}{W}{W}#Sorcery$~ deals 1 damage to target opponent.%^]
+[Battoo Scarecraon@{3}{4}{U}{U}#Creature — Chantra$Before you play this turn, you may put a +1/+1 counter on ~.%1^1]
+[Ghostmage Tend@{3}{B}#Creature — Immer$~ can't be blocked by Elighter creatures.%^]
+[Mirxing Well@{3}#Artifact$You may pay X life: ~ gains trample until end of turn.|Whenever you cast a white spell, put a charge counter on it for each permanent you control.%^]
+[Plague Souls@{3}{R}#Creature — Giant Rogue$As long as ~ is monstrous, put a +1/+1 counter on it or create a 1/1 colorless Emrer Forest creature tokens.%^]
+[Trakdon Raas Tachling@{G}{U}#Creature — Beast$When ~ enters the battlefield, return a blue creature you control to its owner's hand.%5^6]
+[Fembush Samiliance@{2}{G}{B}#Sorcery$Creatures you control get +0/+2 until end of turn.%2^2]
+[Emissair Mirror@{3}{G}{G}{G}#Creature — Illusion Spirit$%1^1]
+[Nugysa@{W}#Instant$Multicolored creatures you control have partner.%^]
+[Sensent Charming@{4}{U}{U}#Instant$Counter target artifact or creature spells. Put a +1/+1 counter on it for each blue creature card of color when that creature's controller.%^]
+[Marvesse@#Leg
+----- diversity: 1.2
+----- Generating with seed: "pkeep, starting with you, each player vo"
+---
+pkeep, starting with you, each player votes one of those cards of their libraried sesteryed can't be countered.%^]
+[Alphants Islem@{W/U}{B/R}#Creature — Fungus Ilerac$You may play up to three attacking creatures. Destroy this artifact.|Activated abilities can't be the target of spells or abilities.)%^]
+[Aurydk's Gromout@{3}#Artifact — Equipment$Equipped creature has indestructible.%^]
+[Beacoc-Tul Spide@{B}#Creature — Orc Shaman Mutcher${R}: ~ gets +2/-2 until end of turn.%1^1]
+[Rumoster Joud@{1}{U}{U}#Instant$~ deals 3 damage to target creature or player.|• Search your library for an artifact, creature, and voice and all.%^]
+[Kits Qual Vombuster@{4}{G}#Enchantment — Aura$Enchant creature|Enchanted land has "{W}: Return this card from your graveyard for a planabestalkon counter on ~, untap all lands and other cards in your graveyard, your maxilurint the game, reveal those cards, then put the rest on the bottom of your library.)|~ deals 1 damage to each creature and each player.%^]
+[Vettend Ooze Retaut@{4}#Creature — Fest Evula Horror$Shadow (This creature can block or be blocked by only creatures with shadow.)|~ can block only creatures with flying all damage Auras is less than each basic land's the chosen in, or white, S

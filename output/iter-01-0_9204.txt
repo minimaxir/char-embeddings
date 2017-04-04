@@ -1,0 +1,54 @@
+----- diversity: 0.2
+----- Generating with seed: "}: Return target enchantment card from y"
+---
+}: Return target enchantment card from your graveyard to your hand.%^]
+[Deather Striver@{1}{W}#Creature — Human Shaman${1}{G}: ~ gets +1/+0 until end of turn.%2^2]
+[Mortie Archer@{2}{W}#Creature — Human Shaman$Whenever a player casts a creature card, then shuffle your library.%^]
+[Mind Shaver@{1}{W}#Creature — Human Shaman$Whenever a player casts a creature card with the same converted mana cost the copy the copy the copy the sacrifices it.%^]
+[Archor Shroud@{1}{U}#Creature — Human Shaman${1}{W}{W}: Target creature gets +1/+1 until end of turn.%2^2]
+[Savan Striver@{2}{W}#Creature — Human Shaman$Whenever a player casts a creature card from your graveyard to your hand.%^]
+[Strive Spirit@{1}{W}#Creature — Human Shaman${1}{W}: Return target creature can't be blocked this turn.%^]
+[Dragon Strider@{4}{G}#Creature — Human Shaman$Whenever a player casts a creature card, then put a +1/+1 counter on it.%^]
+[Merdal Striver@{1}{U}#Creature — Human Shaman${1}{G}: ~ gets +1/+0 until end of turn.%2^2]
+[Strive Griffing@{1}{U}#Creature — Human Shaman$Whenever you cast a spell, you may pay {1}. Then shuffle your library.%^]
+[Strive Striver@{1}{B}{B}#Creature — Human Spection$Whenever a creature card from all the creatures you control.%^]
+
+----- diversity: 0.5
+----- Generating with seed: "}: Return target enchantment card from y"
+---
+}: Return target enchantment card from your hand to your graveyard to your hand.%^]
+[Mina Griff Car@{1}{G}#Creature — Human Shaman$Whenever you cast a creature card fly you graveyard.%^]
+[Storn Gate@{1}{R}{R}#Creature — Human Scout$Flying|At the beginning of your upkeep, you may pay {1}. If you do, exile it instead.%^]
+[There Ooth@{2}{B}{B}#Sorcery$~ deals combat damage to all creatures that would be dealt to the number of creatures you control.%^]
+[Sarch Shave@{2}{U}{U}#Creature — Human Shaman$Whenever a player casts a creature.%^]
+[Grave Baster@{4}{U}{U}#Creature — Human Soldier$Whenever you cast a spell, you may choose a creature card from your graveyard to the battlefield tapped, then shuffle your library for all target creatures.%^]
+[Dread Spirit@{1}{W}#Creature — Elf Shaman$Whenever an opponent casts a creature spell.%^]
+[Viming Archen@{2}{G}#Creature — Human Spellshaper$Whenever a player casts a creature you control.%^]
+[Survide Barder@{2}{G}{G}#Creature — Human Shaman$Whenever you cast a player casts a creature. (It can't be blocked this turn, you gain 1 life.%^]
+[Dessact Catth@{4}{U}#Creature — Spirit$Flying|Whenever a player casts a creature card, then shuffle your library. If you do draw a card.%^]
+[Demage Cal
+----- diversity: 1.0
+----- Generating with seed: "}: Return target enchantment card from y"
+---
+}: Return target enchantment card from your graveyard to your hand.%*^*]
+[Carne torting's Velamer@{B}#Enchantment — Aura$Enchant creature|Equipped — Equipment card: ~ gets +2/+2 until end of turn.|{4}, Discard a card for each Et-hem on your graveyard.%^]
+[Veonehrier of Dugen@{1}{U}{U}#Enchantment$Dry 2. Tap another Crest artifact card.%^]
+[Mie Avisdorcer@{1}{G}#Creature — Ippation$When ~ enters the battlefield, if you wave cost among there cards that shree.%^]
+[Trophet Cropry@{0}{G}#Creature — Pledush$Mipprot — Equipment creature: Begenerate this creature has flying.%6^]
+[Ratoky Salvary@{G}#Enchantment — Aura$Enchant creature|Svign creature gets +1/+0 and gets +2/+2 until end of turn.%2^2]
+[Drattorn Conporth@{4}{G}#Creature — Bhand$Devoid — Addifice creatures have "Whenever another land is put all creature, you gain 1 life.%^]
+[Torver Shrue@{2}{W}{U}#Creature — Human Avat$Madness, protess and/y counter — Goblin Dry, O/A green Allior creature hals haste.%^]
+[Walk Mengader@{2}{G/U}#Creature — Devolin Avatar$Whenever an artifact creature gets -2/-4 as long as lifelink unkiti would or may colorless cards.%^]
+[Detoon Zjut@{U}{B}#Creature — Human Brad$Flying (This creature can't be blocked this turn if able.%^]
+[Purge her@{W}{
+----- diversity: 1.2
+----- Generating with seed: "}: Return target enchantment card from y"
+---
+}: Return target enchantment card from your graveyard andestrut blocking that card, ~ gets +1/+0 until end of turn.%4^2]
+[Gronl Prharon@{6}#Artifact$As long as ~ with taurn's turn if it has where cyourers devens conor as a spell activate it.)%^]
+[Puttahice%2dy Giant Snowld@{1}{G}#Enchantment — Aurhan Card$Whenever you cast a creature spell, put a non-any counter on the bottom of your control counters on the poisn put until end of turn.|{T}, Sacrifice it unless you pay ta veturn a land.%^]
+[Caxced@{1}#Artifact$Hain happlace creatures you control.|When ~ enters the battlefield, all combat damage to equal color the reach.)%^]
+[Daud Doesporce@{4}{G}#Creature — Elemental$Morprest — — Humon creatures you control get +1/+0 until end of turn.%^]
+[Dressnazing Parvicueus Apen@#Land$~ enters the battlefield with five white damage yould, put it onto the battlefield under your opponents creachs that damage to player don't time greens level with draw X.|LQeatures you control get +1/+1 and gains flying.|• Gotcon 0000]
+[Kird Loguld@#Land${4}{W}: Draw all target creature cards aquest card.%1^1]
+[Seatch Emrigaa@{1}{B}{W}#Instant$Target card artifacts and/or player +1 as lince your library for asd and teagn or more creature. Each opponent:

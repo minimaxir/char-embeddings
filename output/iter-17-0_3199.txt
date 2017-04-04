@@ -1,0 +1,48 @@
+----- diversity: 0.2
+----- Generating with seed: "re — Insect${1}{G}: Create a 1/1 green I"
+---
+re — Insect${1}{G}: Create a 1/1 green Insect creature token with flying.%^]
+[Selesnit Shaman@{2}{R}{R}#Creature — Goblin Warrior$Whenever a creature you control dies, target creature gets +1/+1 until end of turn.)|Whenever ~ attacks, it gets +1/+1 until end of turn.)|Whenever a creature dealt damage by ~ this turn dies, put a +1/+1 counter on ~.%1^1]
+[Spirit Mark@{1}{R}#Instant$~ deals 3 damage to target creature or player.%^]
+[Stone of the Predator@{2}{U}#Creature — Human Wizard${T}: Add {G} to your mana pool.%^]
+[Angel of Thought@{3}{W}{W}#Creature — Human Cleric${T}: Target creature gets +1/+1 until end of turn.)|Whenever ~ deals combat damage to a player, you may draw a card.%^]
+[Archant of Mage@{2}{R}#Creature — Goblin Shaman$Whenever a player casts a blue spell, you may pay {1}. If you do, you gain 1 life.%^]
+[Starfied Conscription@{1}{R}#Creature — Human Shaman$Whenever a player casts a spell, that player sacrifices a creature.%^]
+[Standing Stand@{2}{B}#Sorcery$Destroy target artifact or enchantment.|• Destroy target enchantment.%1^1]
+[Starfied Spirit@{1}{B}#Creature — Human Wizard${T}: Target creature gets +1/+1 until end of turn.)|Whenever you cast a spell, you may pay {1}. If you do, you gain 1 life.%^]
+[Spine
+----- diversity: 0.5
+----- Generating with seed: "re — Insect${1}{G}: Create a 1/1 green I"
+---
+re — Insect${1}{G}: Create a 1/1 green Insect creature token with flying.%2^2]
+[Starfied Manter@{2}{G}#Creature — Elf Wizard$Flying|{T}: Add {C}{C} to your mana pool.%^]
+[Rite of Thrangler@{2}{R}#Creature — Human Shaman$Whenever a player casts a blue spell, you may pay {1}{G}. If you do, change its text by replacing all instances of "target" with "each.")%^]
+[Great Recluse@{2}{R}#Enchantment$Whenever you cast a creature spell, draw a card.%2^2]
+[Stone Fallen@{2}{U}{U}#Creature — Human Wizard${T}: Target creature gets +1/+1 until end of turn.)|Whenever a creature an opponent controls dies, you may pay {W}. If you do, each opponent loses 1 life for each card in your hand. Target player loses 3 life.%^]
+[Sprite Spring@{2}{R}#Creature — Goblin${R}: ~ gets +1/+0 until end of turn.%1^1]
+[Disciple of the Blood Soul@{2}{R}{R}#Creature — Dragon$Flying|When ~ enters the battlefield, you may search your library for a Plains card and put it onto the battlefield. Then shuffle your library.%^]
+[Carling Wind@{3}{U}#Instant$Counter target spell unless its controller pays {1}.%^]
+[Grimo's Power@{1}{R}#Creature — Elemental${1}{G}, {T}: Draw a card, then discard a card.%3^4]
+[Sentant Entrapher@{3}{B}{R}#Creature — Mana Druggy$Create X 1/1 
+----- diversity: 1.0
+----- Generating with seed: "re — Insect${1}{G}: Create a 1/1 green I"
+---
+re — Insect${1}{G}: Create a 1/1 green Insect creature token.|When ~ is put into a graveyard from the battlefield, you may remove a +1/+1 counter from ~.|When ~ enters the battlefield, you gain 1 life.|When ~ is put into a graveyard from the battlefield, return ~ to its owner's hand.%^]
+[Jabent the Rast@{2}{R}#Instant$~ deals 2 damage to each creature and each player.%2^1]
+[Atchemist@{2}{G}#Creature — Naga Wizard$Flash (You may cast this spell any time you could cast an instant.)|Enchant creature|You control enchanted creature and put a +1/+1 counter on it for each time it was kicked.%2^2]
+[Gaerwood Dragon@{6}{R}{R}{R}#Creature — Human Pilot$Trample%5^3]
+[Drom-Eye@{1}{B}{B}#Sorcery$Draw two cards.%^]
+[Ungrave Woil@{5}#Artifact${1}: ~ deals 1 damage to target creature. That creature doesn't untap during its controller's untap step for as long as it was kicked.%2^1]
+[Stormwild Dread@{2}{R}#Creature — Elemental$If a creature would deal damage, not its controller, among any of the creatures it's being blocked by or is blocking.)%2^2]
+[Levium Vile@{4}{U}#Instant$Prevent all combat damage that would be dealt to target creature or player this turn.%1^1]
+[Witch-Tree Sliver@{3}{W}#Creature — Human Cleric${T}: Prevent the next 2 d
+----- diversity: 1.2
+----- Generating with seed: "re — Insect${1}{G}: Create a 1/1 green I"
+---
+re — Insect${1}{G}: Create a 1/1 green Insect creature token w6r +1 +1/+1 counters are don.|Each player discards his or her hand, then put the rest on the bottom of your library.)%2^2]
+[Ascaded Apprentice@{2}{G}#Instant$Put target nonland permanent to its owner's hand. If ~ was kicked, it enters the battlefield with two +1/+1 counters on it.|{W/R}{W/B}: Start two untapped creatures you control to haste four cards in any graveyard has a dragon, you can't cast spells or activate abilities that aren't mana abilities that aren't mana abilities.%1^1%4^2]
+[Byclopation Hond-Wraf@#Land$~ enters the battlefield tapped.|{T}: Add {G} to your mana pool.%^]
+[Belbernged@{3}#Artifact — Equipment$Swampwalk (This creature can't be blocked as long as defending player controls an Island.)|At th! {C} reals his or her card from your graveyard to your hand.%4^5]
+[Zombie Curios@{U}#Creature — Giant$Bloodroke (As you cast this spell, you may scry X can't be gain that much life.)%2^2]
+[Apish Umage@{2}{U}{U}#Enchantment$Whenever another creature an opponent controls are blocking or being blocked by one or more creatures, sacrifice a land. (You may cast this card from your graveyard for its flashback cost. Then exile it.)%^]
+[Loximing Giant@{5}{R}
