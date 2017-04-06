@@ -1,8 +1,7 @@
 from __future__ import print_function
 from keras.models import Sequential, Model, load_model
-from keras.layers import Dense, Activation, Dropout, Embedding, Flatten
-from keras.layers import LSTM, Convolution1D, MaxPooling1D, Bidirectional, TimeDistributed, GRU, Input, merge, AveragePooling1D, SimpleRNN
-from keras.layers.merge import concatenate
+from keras.layers import Dense, Activation, Embedding
+from keras.layers import LSTM, Input
 from keras.optimizers import RMSprop, Adam
 from keras.utils.data_utils import get_file
 from keras.layers.normalization import BatchNormalization
@@ -23,17 +22,6 @@ text = open('magic_cards.txt').read()
 chars = sorted(list(set(text)))
 char_indices = dict((c, i) for i, c in enumerate(chars))
 indices_char = dict((i, c) for i, c in enumerate(chars))
-
-step = 3
-sentences = []
-for i in range(0, len(text) - maxlen, step):
-    sentences.append(text[i: i + maxlen])
-
-print('Vectorization...')
-X = np.zeros((len(sentences), maxlen), dtype=np.int)
-for i, sentence in enumerate(sentences):
-    for t, char in enumerate(sentence):
-        X[i, t] = char_indices[char]
 
 def sample(preds, temperature=1.0):
     # helper function to sample an index from a probability array
